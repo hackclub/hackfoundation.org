@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ffffff;
+        background: #000000;
+    }
+}
+
+@media (min-width: 768px) {
+    .vertical-center {
+        min-height: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.w-fitcontent {
+    min-width: 15rem;
+    width: fit-content;
+    max-width: fit-content;
+}
+
+a:hover {
+    @apply underline cursor-pointer
+}

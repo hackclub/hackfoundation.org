@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
 export default function HeadObject({children}) {
-    const title = "The Perfect Next.js Theme";
-    const description = "This is the perfect Next.js theme that you should use instead of create-next-app.";
-    const keywords = "put some fun keywords here";
-    const author = "Sarthak Mohanty";
-    const twitter = "@sarthaktexas";
+    const title = "The Hack Foundation";
+    const description = "The Hack Foundation is the foundation that partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity.";
+    const keywords = "hack, club, foundation, entity, nonprofit";
+    const author = "The Hack Foundation";
+    const twitter = "@hackclub";
     //const image = "/ogimage.png"; // This is your OpenGraph image
     return (
         <Head>
@@ -16,7 +16,7 @@ export default function HeadObject({children}) {
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
             <meta name="author" content={author} />
-            <meta property="og:url" content="put it in this quotes" /> {/* This is where you put the domain */}
+            <meta property="og:url" content="https://thehackfoundation.com" />
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
