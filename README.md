@@ -9,4 +9,4 @@ Our innovative program allows anyone with a vision to build something meaningful
 - Tailwind CSS - for styling
 - `framer-motion` - for that fancy animation at the bottom (check it out [here](/components/AnimationContainer.js))
 
-&copy; 2021 Sarthak Mohanty. All Rights Reserved.
+&copy; 2021 The Hack Foundation. All Rights Reserved.
