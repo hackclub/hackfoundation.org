@@ -4,7 +4,17 @@ import AnimationContainer from '../components/AnimationContainer'
 
 export default function Home() {
   useEffect(() => {
-    console.log('Made by Sarthak Mohanty. All Rights Reserved. Want to hire me? https://srtk.me')
+    console.log(`
+               __
+              / _) 
+     _.----._/ /
+    /         /
+ __/ (  | (  |
+/__.-'|_|--|_|
+
+
+see the source: https://github.com/hackclub/hackfoundation.org
+    `)
   });
 
   return (
