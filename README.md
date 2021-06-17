@@ -7,6 +7,6 @@ Every year, tens of thousands of people are impacted by organizations operating 
 
 # Colophon
 - Tailwind CSS - for styling
-- `framer-motion` - for that fancy animation at the bottom (check it out [here](/components/AnimationContainer.js))
+- a raw CSS animation - for that fancy animation at the bottom (check it out [here](/components/AnimationContainer.js))
 
 &copy; 2021 The Hack Foundation. All Rights Reserved.
