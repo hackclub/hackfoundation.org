@@ -6,7 +6,7 @@ export default function Home() {
   useEffect(() => {
     console.log(`
                __
-              / _) 
+              / _)
      _.----._/ /
     /         /
  __/ (  | (  |
