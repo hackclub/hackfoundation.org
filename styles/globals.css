@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    @variants dark, hover {
+        .underline-white {
+            text-decoration-color: #ffffff;
+        }
+        .underline-solid {
+            text-decoration-style: solid;
+        }
+        .underline-dashed {
+            text-decoration-style: dashed;
+        }
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: #ffffff;
@@ -24,6 +38,32 @@
     max-width: fit-content;
 }
 
+a {
+    @apply dark:underline-white;
+}
+
 a:hover {
-    @apply underline cursor-pointer
+    @apply underline-solid cursor-pointer;
+}
+
+section#main a {
+    @apply underline underline-dashed hover:underline-solid;
+}
+
+.animate-marquee-left {
+    animation: marquee-left 10s linear infinite;
+}
+
+.animate-marquee-right {
+    animation: marquee-right 10s linear infinite;
+}
+
+@keyframes marquee-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0%); }
 }
