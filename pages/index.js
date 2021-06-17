@@ -24,13 +24,17 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <section className="flex flex-col md:grid md:grid-cols-3">
             <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-12 text-lg lg:text-xl">
               <p>
-                <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a href="https://hackclub.com" target="_blank">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could receive.
+                <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a href="https://hackclub.com" target="_blank">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
               </p>
               <p>
-                Today, The Hack Foundation is the largest <a href="https://en.wikipedia.org/wiki/Fiscal_sponsorship">fiscal sponsor</a> for teen-led projects in the world. From Hack Clubs, to hackathons, to Little League teams and community organizations, hundreds of diverse groups with annual budgets from $100 to $250,000 are powered by the infrastructure created, designed, and coded by Hack Club teenagers across America, <a href="https://bank.hackclub.com/hq/">including Hack Club HQ itself</a>.
+                Today, The Hack Foundation is the largest <a href="https://en.wikipedia.org/wiki/Fiscal_sponsorship">fiscal sponsor</a> for teen-led projects in the world.</p>
+              <p>
+                Hundreds of diverse groups with annual budgets from $100 to $250,000 are powered by The Hack Foundation. These include Hack Clubs, hackathons, Little League teams, community organizations, and <a href="https://bank.hackclub.com/hq/">Hack Club HQ itself</a>. Partnered organizations receive the benefits of 501(c)(3) nonprofit status, administrative and backoffice support, and financial oversight.
               </p>
               <p>
-                Every year, tens of thousands of people are impacted by organizations operating under The Hack Foundation. Partnered organizations receive the benefits of 501(c)(3) nonprofit status, administrative and backoffice support, and financial oversight.
+                The Hack Foundation was founded by a 16 year old. The organization and all its software has been built over the years by teenagers at Hack Club. Today's supporters include...
+              </p>
+              <p>
               </p>
               <section className="-m-10 md:m-0">
                 <h2 className="font-bold pb-4 px-10 md:px-0">300+ organizations. $3M+ raised.</h2>
