@@ -34,10 +34,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
               <p>
                 The Hack Foundation was founded by a 16 year old. The organization and all its software has been built over the years by teenagers at Hack Club. Today's supporters include...
               </p>
-              <p>
-              </p>
               <section className="-m-10 md:m-0">
-                <h2 className="font-bold pb-4 px-10 md:px-0">300+ organizations. $3M+ raised.</h2>
                 <OrganizationContainer />
               </section>
             </section>
