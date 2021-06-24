@@ -16,14 +16,9 @@
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #ffffff;
-        background: #000000;
-    }
-    #animation-container::before, #animation-container::after {
-        background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0) 100%);
-    }
+html.dark body {
+    color: #ffffff;
+    background: #000000;
 }
 
 @media (min-width: 768px) {
@@ -40,50 +35,9 @@
 }
 
 a {
-    @apply dark:underline-white;
-}
-
-a:hover {
-    @apply underline-solid cursor-pointer;
+    @apply dark:underline-white hover:underline-solid hover:cursor-pointer;
 }
 
 section#main a {
     @apply underline underline-dashed hover:underline-solid;
-}
-
-#animation-container::before, #animation-container::after {
-    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-    content: "";
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-}
-
-#animation-container::before {
-    left: 0;
-    top: 0;
-}
-
-#animation-container::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-}
-
-.animate-marquee-left {
-    animation: marquee-left 10s linear infinite;
-}
-
-.animate-marquee-right {
-    animation: marquee-right 10s linear infinite;
-}
-
-@keyframes marquee-left {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-}
-
-@keyframes marquee-right {
-    from { transform: translateX(-50%); }
-    to { transform: translateX(0%); }
 }

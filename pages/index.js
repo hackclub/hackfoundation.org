@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import HeadObject from '../components/head'
-import AnimationContainer from '../components/AnimationContainer'
+import OrganizationContainer from '../components/OrganizationContainer'
 
 export default function Home() {
   useEffect(() => {
@@ -22,7 +22,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
       <HeadObject />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2">
         <section className="flex flex-col md:grid md:grid-cols-3">
-            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-12 text-lg lg:text-xl">
+            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-12 text-lg">
               <p>
                 <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a href="https://hackclub.com" target="_blank">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
               </p>
@@ -38,7 +38,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
               </p>
               <section className="-m-10 md:m-0">
                 <h2 className="font-bold pb-4 px-10 md:px-0">300+ organizations. $3M+ raised.</h2>
-                <AnimationContainer />
+                <OrganizationContainer />
               </section>
             </section>
             <section className="mt-12 md:mt-0 md:col-span-1 flex flex-col space-y-10">
