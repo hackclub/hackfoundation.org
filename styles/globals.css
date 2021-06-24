@@ -35,7 +35,7 @@ html.dark body {
 }
 
 a {
-    @apply dark:underline-white hover:underline-solid hover:cursor-pointer;
+    @apply dark:underline-white hover:underline hover:underline-solid hover:cursor-pointer;
 }
 
 section#main a {
