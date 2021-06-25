@@ -34,10 +34,6 @@ a.nav-flag {
     @apply hover:bg-transparent;
 }
 
-section#finances a {
-    @apply hover:bg-transparent;
-}
-
 .underline {
     text-decoration-color: rgba(0,0,0,0.2);
 }

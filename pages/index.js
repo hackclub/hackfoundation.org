@@ -48,7 +48,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
               <p>If you would like to learn more about partnering with The Hack Foundation for your organization, <a href="https://hackclub.com/bank/" className="font-bold">please see here.</a></p>
               <section id="people">
                 <h3 className="font-bold">Board</h3>
-                <div className="flex flex-col space-y-1">
+                <div className="flex flex-col space-y-1 items-start">
                   <a target="_blank" href="https://twitter.com/zachlatta">Zach Latta</a>
                   <a target="_blank" href="https://twitter.com/ChristinaAsquit">Christina Asquith</a>
                   <a target="_blank" href="https://twitter.com/mojombo">Tom Preston-Werner</a>
@@ -57,14 +57,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
               </section>
               <section id="finances">
                 <h3 className="font-bold">Finances</h3>
-                <div className="flex flex-col space-y-1">
+                <div className="flex flex-col space-y-1 items-start">
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf">2019</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf">2018</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2017</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2016</a>
                 </div>
               </section>
-              <section>
+              <section className="text-sm">
                 <h3 className="font-bold">EIN</h3>
                 <p>81-2908499</p>
               </section>
