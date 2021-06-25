@@ -19,7 +19,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
   });
 
   return (
-    <div className="vertical-center">
+    <div className="vertical-center py-4 md:py-12">
       <Meta
         as={Head}
         name="The Hack Foundation"
