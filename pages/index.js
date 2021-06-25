@@ -28,7 +28,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         color="#ffffff"
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2">
-        <section className="flex flex-col space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3">
+        <section className="flex flex-col space-y-10 lg:space-y-0 md:grid md:grid-cols-3">
             <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-10 text-lg">
               <p>
                 <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a target="_blank" href="https://hackclub.com">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
