@@ -26,10 +26,6 @@ a {
     @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
 }
 
-section#main a {
-    @apply italic;
-}
-
 a.nav-flag {
     @apply hover:bg-transparent;
 }
