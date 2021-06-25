@@ -2,7 +2,7 @@ import organizations from '../lib/organizations'
 
 export default function OrganizationContainer() {
     return (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 md:justify-start justify-center">
             {organizations.map(({ name, logo }) => (
                 <Organization key={name} name={name} logo={logo} />
             ))}

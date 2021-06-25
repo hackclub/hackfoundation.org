@@ -34,30 +34,28 @@ see the source: https://github.com/hackclub/hackfoundation.org
               <p>
                 The Hack Foundation was founded by a 16 year old. The organization and all its software has been built over the years by teenagers at Hack Club. Today's supporters include...
               </p>
-              <section className="-m-10 md:m-0">
-                <OrganizationContainer />
-              </section>
+              <OrganizationContainer />
             </section>
             <section className="mt-12 md:mt-0 md:col-span-1 flex flex-col space-y-10">
               <p>If you are considering supporting an organization partnered with The Hack Foundation, contact our <a href="mailto:bank@hackclub.com" className="font-bold">financial operations team.</a></p>
               <p>If you would like to learn more about partnering with The Hack Foundation for your organization, <a href="https://hackclub.com/bank/" className="font-bold">please see here.</a></p>
-              <section>
+              <section id="people">
                 <h3 className="font-bold">Board</h3>
-                <section className="flex flex-col space-y-1">
+                <div className="flex flex-col space-y-1">
                   <a target="_blank" href="https://twitter.com/zachlatta">Zach Latta</a>
                   <a target="_blank" href="https://twitter.com/ChristinaAsquit">Christina Asquith</a>
                   <a target="_blank" href="https://twitter.com/mojombo">Tom Preston-Werner</a>
                   <a target="_blank" href="https://twitter.com/sqs">Quinn Slack</a>
-                </section>
+                </div>
               </section>
-              <section>
+              <section id="finances">
                 <h3 className="font-bold">Finances</h3>
-                <section className="flex flex-col space-y-1">
+                <div className="flex flex-col space-y-1">
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf">2019</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf">2018</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2017</a>
                   <a target="_blank" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2016</a>
-                </section>
+                </div>
               </section>
               <section>
                 <h3 className="font-bold">EIN</h3>

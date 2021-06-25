@@ -3,16 +3,8 @@
 @tailwind utilities;
 
 @layer utilities {
-    @variants dark, hover {
-        .underline-white {
-            text-decoration-color: #ffffff;
-        }
-        .underline-solid {
-            text-decoration-style: solid;
-        }
-        .underline-dashed {
-            text-decoration-style: dashed;
-        }
+    .w-fitcontent {
+        width: fit-content;
     }
 }
 
@@ -30,14 +22,23 @@ html.dark body {
     }
 }
 
-.w-fitcontent {
-    width: fit-content;
-}
-
 a {
-    @apply dark:underline-white hover:underline hover:underline-solid hover:cursor-pointer;
+    @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
 }
 
 section#main a {
-    @apply underline underline-dashed hover:underline-solid;
+    @apply italic;
+}
+
+
+section#people a {
+    @apply hover:bg-transparent;
+}
+
+section#finances a {
+    @apply hover:bg-transparent;
+}
+
+.underline {
+    text-decoration-color: rgba(0,0,0,0.2);
 }
