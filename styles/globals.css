@@ -30,8 +30,7 @@ section#main a {
     @apply italic;
 }
 
-
-section#people a {
+a.nav-flag {
     @apply hover:bg-transparent;
 }
 
