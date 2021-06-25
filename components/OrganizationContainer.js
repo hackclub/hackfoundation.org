@@ -4,7 +4,7 @@ export default function OrganizationContainer() {
     return (
         <div className="flex flex-wrap gap-2">
             {organizations.map(({ name, logo }) => (
-                <Organization name={name} logo={logo} />
+                <Organization key={name} name={name} logo={logo} />
             ))}
         </div>
     )
