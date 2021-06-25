@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import HeadObject from '../components/head'
+import Head from 'next/head'
+import Meta from '@hackclub/meta'
 import OrganizationContainer from '../components/OrganizationContainer'
 
 export default function Home() {
@@ -19,7 +20,13 @@ see the source: https://github.com/hackclub/hackfoundation.org
 
   return (
     <div className="vertical-center">
-      <HeadObject />
+      <Meta
+        as={Head}
+        name="The Hack Foundation"
+        title="The Hack Foundation"
+        description="The Hack Foundation is the foundation that partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
+        color="#ffffff"
+      />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2">
         <section className="flex flex-col md:grid md:grid-cols-3">
             <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-10 text-lg">
