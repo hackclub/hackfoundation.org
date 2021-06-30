@@ -6,47 +6,35 @@ const Flag = props => (
     <a
         title="Hack Club"
         href="https://hackclub.com/"
-        className="nav-flag"
+        className="nav-flag absolute inline-block cursor-pointer flex-shrink-0 w-32"
         {...props}
     >
-    <style jsx>{`
-    .nav-flag {
-        position: absolute;
-        display: inline-block;
-        background-image: url(https://assets.hackclub.com/flag-orpheus-top.svg);
-        background-repeat: no-repeat;
-        background-position: top left;
-        background-size: contain;
-        cursor: pointer;
-        flex-shrink: 0;
-        width: 112px;
-        height: 48px;
-    }
-    @media (min-width: 32em) {
-        a {
-        height: 64px;
+        <img src="https://assets.hackclub.com/flag-orpheus-top.svg" />
+        <style jsx>{`
+        @media (min-width: 32em) {
+            a {
+                height: 64px;
+            }
         }
-    }
-    @media (prefers-reduced-motion: no-preference) {
-        a {
-        transition: ${3 / 16}s cubic-bezier(0.375, 0, 0.675, 1) transform;
-        transform-origin: top left;
+        @media (prefers-reduced-motion: no-preference) {
+            a {
+                transition: ${3 / 16}s cubic-bezier(0.375, 0, 0.675, 1) transform;
+                transform-origin: top left;
+            }
+            a:hover, a:focus {
+                animation: waveFlag 0.5s linear infinite alternate;
+            }
         }
-        a:hover,
-        a:focus {
-        animation: waveFlag 0.5s linear infinite alternate;
+        @keyframes waveFlag {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(-5deg);
+            }
         }
-    }
-    @keyframes waveFlag {
-        from {
-        transform: rotate(0deg);
-        }
-        to {
-        transform: rotate(-5deg);
-        }
-    }
-    `}</style>
-</a>
+        `}</style>
+    </a>
 )
 
 export default Flag
