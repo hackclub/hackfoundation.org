@@ -6,10 +6,10 @@ const Flag = props => (
     <a
         title="Hack Club"
         href="https://hackclub.com/"
-        className="nav-flag absolute inline-block cursor-pointer flex-shrink-0 w-32"
+        className="nav-flag absolute inline-block cursor-pointer flex-shrink-0"
         {...props}
     >
-        <img src="https://assets.hackclub.com/flag-orpheus-top.svg" />
+        <img src="https://assets.hackclub.com/flag-orpheus-top.svg" className="w-32" />
         <style jsx>{`
         @media (min-width: 32em) {
             a {
