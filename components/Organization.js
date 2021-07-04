@@ -7,10 +7,7 @@ import React from "react"
 
 export default function Organization({ children, url, name, logo }) {
   const { theme, systemTheme } = useTheme()
-
-  const isDark =
-    theme === "dark" || (theme === "system" && systemTheme === "dark")
-
+  const isDark = theme === "dark" || (theme === "system" && systemTheme === "dark")
   const width = 200
   const height = 125
   const layout = "fixed"

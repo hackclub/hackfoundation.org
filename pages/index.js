@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 import Meta from '@hackclub/meta'
 import OrganizationContainer from '../components/OrganizationContainer'
+import { useTheme } from 'next-themes'
 
 export default function Home() {
   useEffect(() => {
@@ -17,7 +18,8 @@ export default function Home() {
 see the source: https://github.com/hackclub/hackfoundation.org
     `)
   });
-
+  const { theme, systemTheme } = useTheme()
+  const isDark = theme === "dark" || (theme === "system" && systemTheme === "dark")
   return (
     <div className="vertical-center py-4 md:py-12">
       <Meta
@@ -25,7 +27,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         name="The Hack Foundation"
         title="The Hack Foundation"
         description="The Hack Foundation is the foundation that partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
-        color="#ffffff"
+        color={isDark ? "#000000" : "#ffffff"}
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2">
         <section className="safe flex flex-col space-y-8 md:space-y-0 md:gap-0 md:grid md:grid-cols-3">
