@@ -44,8 +44,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
               <OrganizationContainer />
             </section>
             <section className="mt-12 md:mt-0 md:col-span-1 flex flex-col space-y-10">
-              <p>If you are considering supporting an organization partnered with The Hack Foundation, contact our <a target="_blank" className="a" href="mailto:bank@hackclub.com" className="font-bold">financial operations team.</a></p>
-              <p>If you would like to learn more about partnering with The Hack Foundation for your organization, <a target="_blank" className="a" href="https://hackclub.com/bank/" className="font-bold">please see here.</a></p>
+              <p>If you are considering supporting an organization partnered with The Hack Foundation, contact our <a target="_blank" className="a font-bold" href="mailto:bank@hackclub.com">financial operations team.</a></p>
+              <p>If you would like to learn more about partnering with The Hack Foundation for your organization, <a target="_blank" className="a font-bold" href="https://hackclub.com/bank/">please see here.</a></p>
               <section id="people">
                 <h3 className="font-bold">Board</h3>
                 <div className="flex flex-col space-y-1 items-start">
