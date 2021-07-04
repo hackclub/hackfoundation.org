@@ -22,12 +22,8 @@ html.dark body {
     }
 }
 
-a {
+.a {
     @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
-}
-
-a.nav-flag {
-    @apply hover:bg-transparent;
 }
 
 .underline {
