@@ -5,7 +5,7 @@ import Image from "next/image"
 import { encode } from "qss"
 import React from "react"
 
-export default function Organization({ children, url, name, logo }) {
+export default function Organization({ name, logo, url }) {
   const { theme, systemTheme } = useTheme()
   const isDark = theme === "dark" || (theme === "system" && systemTheme === "dark")
   const width = 200
@@ -37,12 +37,17 @@ export default function Organization({ children, url, name, logo }) {
       {isMounted ? (
         <Portal>
           <div className="hidden">
-            <Image
+            {/* <Image
               src={src}
               width={width}
               height={height}
               layout={layout}
               priority={true}
+            /> */}
+            <img
+              src={src}
+              width={width}
+              height={height}
             />
           </div>
         </Portal>
@@ -54,8 +59,7 @@ export default function Organization({ children, url, name, logo }) {
           setIsOpen(open)
         }}
       >
-        <HoverCardPrimitive.Trigger href={url} target="_blank"
-        >
+        <HoverCardPrimitive.Trigger href={url} target="_blank">
             <div className="flex flex-row rounded-full border border-gray-400 p-1 w-fitcontent h-10 text-lg font-bold">
                 <img className={`${logo ? 'block' : 'hidden'} w-8 h-8 border border-gray-400 rounded-full self-center`} src={logo ?? ''} alt={`${name}'s logo within a circle next to the text with the name of ${name}`} />
                 <div className="px-2">{name}</div>
@@ -76,11 +80,17 @@ export default function Organization({ children, url, name, logo }) {
               className="block p-1 bg-white border border-transparent shadow rounded-xl hover:border-red-600"
               style={{ fontSize: 0 }}
             >
-              <Image
+              {/* <Image
                 src={src}
                 width={width}
                 height={height}
                 layout={layout}
+                className="rounded-lg"
+              /> */}
+              <Image
+                src={src}
+                width={width}
+                height={height}
                 className="rounded-lg"
               />
             </a>
