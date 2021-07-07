@@ -87,7 +87,7 @@ export default function Organization({ name, logo, url }) {
                 layout={layout}
                 className="rounded-lg"
               /> */}
-              <Image
+              <img
                 src={src}
                 width={width}
                 height={height}
