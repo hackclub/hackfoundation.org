@@ -9,7 +9,7 @@ export default function Flag(props) {
         <a
             title="Hack Club"
             href="https://hackclub.com/"
-            className="nav-flag absolute top-0 inline-block cursor-pointer flex-shrink-0"
+            className="safe nav-flag absolute top-0 inline-block cursor-pointer flex-shrink-0"
             {...props}
         >
             <img src="https://assets.hackclub.com/flag-orpheus-top.svg" className="pl-5" />
