@@ -10,9 +10,4 @@ module.exports = {
     },
   },
   plugins: [],
-  options: {
-    safelist: {
-      greedy: ["/safe$/"],
-    },
-  },
 }

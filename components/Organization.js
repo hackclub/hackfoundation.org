@@ -1,7 +1,6 @@
 import { Portal, Transition } from "@headlessui/react"
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
 import { useTheme } from "next-themes"
-import Image from "next/image"
 import { encode } from "qss"
 import React from "react"
 
@@ -37,13 +36,6 @@ export default function Organization({ name, logo, url }) {
       {isMounted ? (
         <Portal>
           <div className="hidden">
-            {/* <Image
-              src={src}
-              width={width}
-              height={height}
-              layout={layout}
-              priority={true}
-            /> */}
             <img
               src={src}
               width={width}
@@ -80,13 +72,6 @@ export default function Organization({ name, logo, url }) {
               className="block p-1 bg-white border border-transparent shadow rounded-xl hover:border-red-600"
               style={{ fontSize: 0 }}
             >
-              {/* <Image
-                src={src}
-                width={width}
-                height={height}
-                layout={layout}
-                className="rounded-lg"
-              /> */}
               <img
                 src={src}
                 width={width}

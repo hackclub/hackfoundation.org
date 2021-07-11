@@ -21,7 +21,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
   const { theme, systemTheme } = useTheme()
   const isDark = theme === "dark" || (theme === "system" && systemTheme === "dark")
   return (
-    <div className="vertical-center py-4 md:py-12">
+    <div className="vertical-center py-4 md:py-12 my-4 md:my-0">
       <Meta
         as={Head}
         name="The Hack Foundation"
@@ -30,8 +30,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
         color={isDark ? "#000000" : "#ffffff"}
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2">
-        <section className="safe flex flex-col space-y-8 md:space-y-0 md:gap-0 md:grid md:grid-cols-3">
-            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-10 text-lg xl:text-xl">
+        <section className="flex flex-col space-y-8 md:space-y-0 md:gap-0 md:grid md:grid-cols-3">
+            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-6 text-lg xl:text-xl">
               <p>
                 <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a target="_blank" className="a" href="https://hackclub.com">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
               </p>
@@ -45,7 +45,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
               </p>
               <OrganizationContainer />
             </section>
-            <section className="mt-12 md:mt-0 md:col-span-1 flex flex-col space-y-10">
+            <section className="mt-12 md:mt-0 md:col-span-1 flex flex-col space-y-6 2xl:text-lg">
               <p>If you are considering supporting an organization partnered with The Hack Foundation, contact our <a target="_blank" className="a font-bold" href="mailto:bank@hackclub.com">financial operations team.</a></p>
               <p>If you would like to learn more about partnering with The Hack Foundation for your organization, <a target="_blank" className="a font-bold" href="https://hackclub.com/bank/">please see here.</a></p>
               <section id="people">
