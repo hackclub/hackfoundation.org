@@ -8,6 +8,8 @@ const Flag = props => (
       <style jsx>{`
         a {
             position: absolute;
+	    top: 0px;
+	    left: 20px;
             display: inline-block;
             background-image: url(https://assets.hackclub.com/flag-orpheus-top.svg);
             background-repeat: no-repeat;
