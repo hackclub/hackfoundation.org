@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #ffffff;
-        background: #000000;
+@layer utilities {
+    .w-fitcontent {
+        width: fit-content;
     }
+}
+
+html.dark body {
+    color: #ffffff;
+    background: #000000;
 }
 
 @media (min-width: 768px) {
@@ -18,12 +22,14 @@
     }
 }
 
-.w-fitcontent {
-    min-width: 15rem;
-    width: fit-content;
-    max-width: fit-content;
+.a {
+    @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
 }
 
-a:hover {
-    @apply underline cursor-pointer
+.underline {
+    text-decoration-color: rgba(0,0,0,0.2);
+}
+
+html.dark .underline {
+    text-decoration-color: rgba(255,255,255,0.3);
 }

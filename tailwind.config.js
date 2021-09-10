@@ -5,7 +5,14 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      cursor: ["hover"]
+    },
   },
   plugins: [],
+  options: {
+    safelist: {
+      greedy: ["/safe$/"],
+    },
+  },
 }
