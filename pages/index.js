@@ -26,7 +26,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         as={Head}
         name="The Hack Foundation"
         title="The Hack Foundation"
-        description="The Hack Foundation is the foundation that partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
+        description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
         color={isDark ? "#000000" : "#ffffff"}
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2 flex flex-row xl:w-full justify-center">
@@ -36,12 +36,13 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a target="_blank" className="a" href="https://hackclub.com">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
               </p>
               <p>
-                Today, The Hack Foundation is the largest <a target="_blank" className="a" href="https://en.wikipedia.org/wiki/Fiscal_sponsorship">fiscal sponsor</a> for teen-led projects in the world.</p>
-              <p>
-                Hundreds of diverse groups with annual budgets from $100 to $250,000 are powered by The Hack Foundation. These include Hack Clubs, hackathons, Little League teams, community organizations, and <a target="_blank" className="a" href="https://bank.hackclub.com/hq/">Hack Club HQ itself</a>. Partnered organizations receive the benefits of 501(c)(3) nonprofit status, administrative and backoffice support, and financial oversight.
+                In 2018, The Hack Foundation expanded to act as a nonprofit <a target="_blank" className="a" href="https://en.wikipedia.org/wiki/Fiscal_sponsorship">fiscal sponsor</a> for Hack&nbsp;Clubs, hackathons, community organizations, and other for-good projects.
               </p>
               <p>
-                The Hack Foundation was founded by a 16 year old. The organization and all its software has been built over the years by teenagers at Hack Club. Today's supporters include...
+                Today, hundreds of diverse groups with annual budgets from $100 to $250,000 are fiscally sponsored by The Hack Foundation. Partnered organizations receive the benefits of 501(c)(3) nonprofit status, administrative and backoffice support, financial oversight, and transparency tools.
+              </p>
+              <p>
+                The Hack Foundation and all its software has been built over the years by teenagers at Hack Club. Today's supporters include Elon Musk, Vitalik Buterin, Google.org, among many others and hundreds of individual supporters.
               </p>
               <OrganizationContainer />
             </section>
@@ -51,15 +52,17 @@ see the source: https://github.com/hackclub/hackfoundation.org
               <section id="people">
                 <h3 className="font-bold">Board</h3>
                 <div className="flex flex-col space-y-1 items-start">
-                  <a target="_blank" className="a" href="https://twitter.com/zachlatta">Zach Latta</a>
+                  <a target="_blank" className="a" href="https://github.com/zachlatta">Zach Latta</a>
                   <a target="_blank" className="a" href="https://twitter.com/ChristinaAsquit">Christina Asquith</a>
                   <a target="_blank" className="a" href="https://twitter.com/mojombo">Tom Preston-Werner</a>
                   <a target="_blank" className="a" href="https://twitter.com/sqs">Quinn Slack</a>
                 </div>
               </section>
               <section id="finances">
-                <h3 className="font-bold">Finances</h3>
+                <h3 className="font-bold">Finances (990s)</h3>
                 <div className="flex flex-col space-y-1 items-start">
+                  <em><a target="_blank" className="a" href="https://bank.hackclub.com/hq/">See our 100% transparent finances</a></em>
+                  2020 TBD
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf">2019</a>
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf">2018</a>
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2017</a>
