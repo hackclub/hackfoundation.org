@@ -8,11 +8,6 @@
     }
 }
 
-html.dark body {
-    color: #ffffff;
-    background: #000000;
-}
-
 @media (min-width: 768px) {
     .vertical-center {
         min-height: 100%;
@@ -28,10 +23,6 @@ html.dark body {
 
 .underline {
     text-decoration-color: rgba(0,0,0,0.2);
-}
-
-html.dark .underline {
-    text-decoration-color: rgba(255,255,255,0.3);
 }
 
 @font-face {
