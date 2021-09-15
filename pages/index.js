@@ -1,10 +1,7 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import Meta from "@hackclub/meta";
-import OrganizationContainer from "../components/OrganizationContainer";
-import { useTheme } from "next-themes";
 import Marquee from "react-marquee-slider";
-import times from "lodash/times";
 
 export default function Home() {
   useEffect(() => {
@@ -20,9 +17,6 @@ export default function Home() {
 see the source: https://github.com/hackclub/hackfoundation.org
     `);
   });
-  const { theme, systemTheme } = useTheme();
-  const isDark =
-    theme === "dark" || (theme === "system" && systemTheme === "dark");
   return (
     <div className="vertical-center py-4 md:py-12 my-4 md:my-0 font-body">
       <Meta
