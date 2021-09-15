@@ -1,12 +1,13 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'class',
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
+    fontFamily: { body: ['"Phantom Sans"'] },
     extend: {},
   },
   variants: {
     extend: {
-      cursor: ["hover"]
+      cursor: ["hover"],
     },
   },
   plugins: [],
@@ -15,4 +16,4 @@ module.exports = {
       greedy: ["/safe$/"],
     },
   },
-}
+};
