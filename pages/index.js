@@ -24,7 +24,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         name="The Hack Foundation"
         title="The Hack Foundation"
         description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
-        color={isDark ? "#000000" : "#ffffff"}
+        color={"#ffffff"}
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2 flex flex-row xl:w-full justify-center">
         <section className="safe flex flex-col space-y-8 md:space-y-0 xl:max-w-4xl">
