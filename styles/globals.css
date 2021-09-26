@@ -62,7 +62,6 @@
     box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.12);
     object-fit: cover;
     object-position: top;
-    filter: grayscale(100%);
     margin-left: 40px;
   }
 
