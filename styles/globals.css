@@ -68,8 +68,9 @@
   .mt-1 {
     margin-top: 0.25rem!important/* 4px */;
   }
-
-  mx-0 {
+@media (min-width: 768px) {
+  .mx-zero {
     margin-left: 0px!important;
     margin-right: 0px!important;
   }
+}

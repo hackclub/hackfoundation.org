@@ -27,7 +27,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         image="https://camo.githubusercontent.com/bab1c7d453175fc8658c1149be2b044107d10d6ef857d171c547e79e4fdf4632/68747470733a2f2f636c6f75642d6b31386337677271632d6861636b2d636c75622d626f742e76657263656c2e6170702f307370616365785f616e645f6861636b5f636c75622e6a7067"
       />
       <main className="m-5 md:mx-12 lg:mx-24 md:my-2">
-        <section className="safe xl:max-w-4xl mx-auto">
+        <section className="safe xl:max-w-3xl mx-auto">
           <section
             id="main"
             className="md:col-span-2 flex flex-col space-y-5  text-md md:text-lg xl:text-xl"
@@ -65,7 +65,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 marginLeft: "-1.25rem",
                 marginRight: "-1.25rem",
               }}
-              className="mx-0"
+              className="mx-zero"
             >
               <Marquee velocity={25}>
                 <img
