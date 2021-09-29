@@ -24,7 +24,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         name="The Hack Foundation"
         title="The Hack Foundation"
         description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
-        color={"#ffffff"}
+        image="https://camo.githubusercontent.com/bab1c7d453175fc8658c1149be2b044107d10d6ef857d171c547e79e4fdf4632/68747470733a2f2f636c6f75642d6b31386337677271632d6861636b2d636c75622d626f742e76657263656c2e6170702f307370616365785f616e645f6861636b5f636c75622e6a7067"
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2 flex flex-row xl:w-full justify-center">
         <section className="safe flex flex-col space-y-8 md:space-y-0 xl:max-w-4xl">
@@ -32,7 +32,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
             id="main"
             className="md:mr-16 md:col-span-2 flex flex-col space-y-5 text-lg xl:text-xl"
           >
-            <h1 className="text-5xl font-bold bg-black text-white py-2 px-4 rounded-lg w-max">
+            <h1 className="text-5xl font-bold w-max border-b-2 border-gray-200 pr-6" style={{color: '#ec3750'}}>
               The Hack Foundation
             </h1>
             <p>
@@ -178,7 +178,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
                   <a
                     target="_blank"
                     className="a mr-3"
-                    href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf"
+                    href="https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf"
                   >
                     2016
                   </a>
@@ -187,7 +187,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
             </div>
             <hr />
             <img
-              src="https://assets.hackclub.com/flag-standalone-bw.png"
+              src="https://assets.hackclub.com/flag-standalone.png"
               width="100px"
               className="mx-auto pt-3"
             />
