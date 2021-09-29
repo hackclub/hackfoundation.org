@@ -66,7 +66,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf">2019</a>
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf">2018</a>
                   <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2017</a>
-                  <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf">2016</a>
+                  <a target="_blank" className="a" href="https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf">2016</a>
                 </div>
               </section>
               <section>
