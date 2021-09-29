@@ -91,14 +91,18 @@ see the source: https://github.com/hackclub/hackfoundation.org
               >
                 small town newspaper in Vermont
               </a>{" "}
-              to  <a
+              to{" "}
+              <a
                 target="_blank"
                 className="a"
                 href="https://bank.hackclub.com/hackpenn"
-              >the largest high-school hackathon in Pennsylvania</a> are fiscally
-              sponsored by The Hack Foundation. Partnered organizations receive
-              the benefits of 501(c)(3) nonprofit status, administrative and
-              backoffice support, financial oversight, and transparency tools.
+              >
+                the largest high-school hackathon in Pennsylvania
+              </a>{" "}
+              are fiscally sponsored by The Hack Foundation. Partnered
+              organizations receive the benefits of 501(c)(3) nonprofit status,
+              administrative and backoffice support, financial oversight, and
+              transparency tools.
             </p>
             <p>
               If you would like to learn more about partnering with The Hack
@@ -206,11 +210,13 @@ see the source: https://github.com/hackclub/hackfoundation.org
               </div>
             </div>
             <hr />
-            <img
-              src="https://assets.hackclub.com/flag-standalone.png"
-              width="100px"
-              className="mx-auto pt-3"
-            />
+            <a href="https://hackclub.com/">
+              <img
+                src="https://assets.hackclub.com/flag-standalone.png"
+                width="100px"
+                className="mx-auto pt-3"
+              />
+            </a>
           </section>
         </section>
       </main>
