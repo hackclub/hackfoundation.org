@@ -54,8 +54,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 <div className="flex flex-col space-y-1 items-start">
                   <a target="_blank" className="a" href="https://github.com/zachlatta">Zach Latta</a>
                   <a target="_blank" className="a" href="https://twitter.com/ChristinaAsquit">Christina Asquith</a>
-                  <a target="_blank" className="a" href="https://twitter.com/mojombo">Tom Preston-Werner</a>
-                  <a target="_blank" className="a" href="https://twitter.com/sqs">Quinn Slack</a>
+                  <a target="_blank" className="a" href="https://github.com/mojombo">Tom Preston-Werner</a>
+                  <a target="_blank" className="a" href="https://github.com/sqs">Quinn Slack</a>
                 </div>
               </section>
               <section id="finances">
