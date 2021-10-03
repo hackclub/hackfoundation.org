@@ -1,13 +1,19 @@
-import '../styles/globals.css'
-import { ThemeProvider } from 'next-themes'
-import Flag from '../components/Flag'
+import * as React from 'react'
+import NextApp from 'next/app'
+import '@hackclub/theme/fonts/reg-bold.css'
+import theme from '@hackclub/theme'
+import { ThemeProvider } from 'theme-ui'
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <ThemeProvider defaultTheme="system" attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
-  )
+export default class App extends NextApp {
+  render() {
+    const { Component, pageProps } = this.props
+    return (
+      <ThemeProvider theme={{
+        ...theme,
+        colors: { ...theme.colors, modes: {} }
+      }}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    )
+  }
 }
-
-export default MyApp

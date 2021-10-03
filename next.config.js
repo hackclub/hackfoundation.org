@@ -1,5 +1,2 @@
-module.exports = {
-    images: {
-      domains: ['api.microlink.io'],
-    },
-}
+const withMDX = require('@next/mdx')({ extension: /\.mdx?$/ })
+module.exports = withMDX({ pageExtensions: ['js', 'jsx', 'mdx'] })
