@@ -1,7 +1,8 @@
 import { Box, Container, Grid, Heading, Text } from 'theme-ui'
-import { useEffect } from "react";
-import Head from "next/head";
-import Meta from "@hackclub/meta";
+import { useEffect } from 'react'
+import Head from 'next/head'
+import Meta from '@hackclub/meta'
+import Icon from '@hackclub/icons'
 
 function hexToRgb(hex) {
   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
@@ -24,26 +25,123 @@ export default function Index() {
  __/ (  | (  |
 /__.-'|_|--|_|
 see the source: https://github.com/hackclub/hackfoundation.org
-    `);
-  });
-  let colours = [
-    '#ec3750',
-    '#ff8c37',
-    '#f1c40f',
-    '#33d6a6',
-    '#5bc0de',
-    '#338eda',
-    '#a633d6',
-    '#ec3750',
-    '#ff8c37',
-    '#f1c40f',
-    '#33d6a6',
-    '#5bc0de',
-    '#338eda',
-    '#a633d6',
-    '#ec3750',
-    '#ff8c37'
+    `)
+  })
+  let events = [
+    {
+      colour: '#ec3750',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#ff8c37',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#f1c40f',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#33d6a6',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#5bc0de',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#338eda',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#a633d6',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#ec3750',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#ff8c37',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#f1c40f',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#33d6a6',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#5bc0de',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#338eda',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#a633d6',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#ec3750',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    },
+    {
+      colour: '#ff8c37',
+      image:
+        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      bankURL: 'https://bank.hackclub.com/zephyr',
+      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+    }
   ]
+
   return (
     <Grid
       sx={{
@@ -249,7 +347,10 @@ see the source: https://github.com/hackclub/hackfoundation.org
           overflow: 'hidden',
           gridTemplateColumns: '25vh 25vh 25vh 25vh',
           '@media screen and (orientation: portrait)': {
-            gridTemplateColumns: ['1fr 1fr 1fr!important', '1fr 1fr 1fr 1fr!important'],
+            gridTemplateColumns: [
+              '1fr 1fr 1fr!important',
+              '1fr 1fr 1fr 1fr!important'
+            ],
             gridRow: 1,
             maxHeight: ['66vw']
           },
@@ -259,23 +360,42 @@ see the source: https://github.com/hackclub/hackfoundation.org
           }
         }}
       >
-        {colours.map(colour => (
+        {events.map((event, i) => (
           <Box
+            as="a"
+            title={event.alt}
+            href={event.bankURL}
+            key={event.bankURL + '-' + i}
+            target="_blank"
             sx={{
-              paddingBottom: '25vh',
+              height: '25vh',
               '@media screen and (orientation: portrait)': {
-                paddingBottom: ['33vw', '25vw'],
+                height: ['33vw', '25vw']
               },
               backgroundImage: `linear-gradient(90deg, rgba(${
-                hexToRgb(colour).r
-              },${hexToRgb(colour).g},${hexToRgb(colour).b},0.5) 0%, rgba(${
-                hexToRgb(colour).r
-              },${hexToRgb(colour).g},${
-                hexToRgb(colour).b
-              },0.5) 100%), url(https://camo.githubusercontent.com/bab1c7d453175fc8658c1149be2b044107d10d6ef857d171c547e79e4fdf4632/68747470733a2f2f636c6f75642d6b31386337677271632d6861636b2d636c75622d626f742e76657263656c2e6170702f307370616365785f616e645f6861636b5f636c75622e6a7067)`,
-              backgroundSize: 'cover'
+                hexToRgb(event.colour).r
+              },${hexToRgb(event.colour).g},${
+                hexToRgb(event.colour).b
+              },0.5) 0%, rgba(${hexToRgb(event.colour).r},${
+                hexToRgb(event.colour).g
+              },${hexToRgb(event.colour).b},0.5) 100%), url(${event.image})`,
+              backgroundSize: 'cover',
+              '&>.external':{
+                opacity: 0,
+                transition: 'opacity 0.3s'
+              },
+              ':hover':{
+                '&>.external':{
+                  opacity: 1,
+                  transition: 'opacity 0.2s'
+                }
+              }
             }}
-          />
+          >
+            <Box sx={{ color: 'white', float: 'right', p: 1}} className="external">
+              <Icon glyph="external" />
+            </Box>
+          </Box>
         ))}
       </Grid>
       <style>
