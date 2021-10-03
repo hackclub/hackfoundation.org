@@ -31,56 +31,56 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ec3750',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-fnoocl93d-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_3.59.34_pm.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      alt: 'Hacking onboard The Hacker Zephyr'
     },
     {
       colour: '#ff8c37',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+        'https://vtdigger.org/wp-content/uploads/2021/03/chea-waters-evans-1-20210323-1536x1025.jpg',
+      bankURL: 'https://bank.hackclub.com/the-charlotte-bridge',
+      alt: 'Chea Evans, the Editor of the Charlotte Bridge'
     },
     {
       colour: '#f1c40f',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/6screenshot_2021-10-03_at_3.29.29_pm.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#33d6a6',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-798qipyeg-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_3.45.54_pm.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#5bc0de',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-a9wdrf60h-hack-club-bot.vercel.app/0img_6447.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#338eda',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-caw3vwrgk-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.07.51_pm.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#a633d6',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/068747470733a2f2f636c6f75642d387a6c6179706b68692e76657263656c2e6170702f323032302d30372d33305f757734747a623577746a777176756376366d71323266347a36616232346d75662e706e67.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#ec3750',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/1ae6618_52a8d7fbf108462a8c540fd13973b879_mv2.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
@@ -94,28 +94,28 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#f1c40f',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-965fkm6xz-hack-club-bot.vercel.app/0dscf6266.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#33d6a6',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-gl9wxq3eq-hack-club-bot.vercel.app/0color_pop.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#5bc0de',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-dcqabdfwp-hack-club-bot.vercel.app/0img-20210918-wa0091.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#338eda',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+        'https://cloud-klueraam9-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.20.30_pm.png',
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
@@ -380,6 +380,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 hexToRgb(event.colour).g
               },${hexToRgb(event.colour).b},0.5) 100%), url(${event.image})`,
               backgroundSize: 'cover',
+              backgroundPosition: 'center',
               '&>.external':{
                 opacity: 0,
                 transition: 'opacity 0.3s'
