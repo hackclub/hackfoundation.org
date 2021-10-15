@@ -46,43 +46,43 @@ see the source: https://github.com/hackclub/hackfoundation.org
       colour: '#f1c40f',
       image:
         'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/6screenshot_2021-10-03_at_3.29.29_pm.png',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://bank.hackclub.com/169',
+      alt: 'Team selfie at Windy City Hacks!'
     },
     {
       colour: '#33d6a6',
       image:
         'https://cloud-798qipyeg-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_3.45.54_pm.png',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://bank.hackclub.com/the-innovation-circuit',
+      alt: 'The Innovation Circuit squad doing some late night bug fixing'
     },
     {
       colour: '#5bc0de',
       image:
         'https://cloud-a9wdrf60h-hack-club-bot.vercel.app/0img_6447.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://twitter.com/hackcamp2020',
+      alt: 'Hacker at Hack Camp 2020'
     },
     {
       colour: '#338eda',
       image:
         'https://cloud-caw3vwrgk-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.07.51_pm.png',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://mahacks.com',
+      alt: 'Hackers hanging out at MAHacks 2019'
     },
     {
       colour: '#a633d6',
       image:
         'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/068747470733a2f2f636c6f75642d387a6c6179706b68692e76657263656c2e6170702f323032302d30372d33305f757734747a623577746a777176756376366d71323266347a36616232346d75662e706e67.png',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://flagship.hackclub.com',
+      alt: 'Hack Club leaderss helping one another at Flagship'
     },
     {
       colour: '#ec3750',
       image:
         'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/1ae6618_52a8d7fbf108462a8c540fd13973b879_mv2.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://www.notesforsupport.org',
+      alt: 'Frontline workers recieving notes for support'
     },
     {
       colour: '#ff8c37',
