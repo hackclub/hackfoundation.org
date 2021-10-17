@@ -92,35 +92,35 @@ see the source: https://github.com/hackclub/hackfoundation.org
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
-      colour: '#f1c40f',
+      colour: '#a633d6',
       image:
-        'https://cloud-965fkm6xz-hack-club-bot.vercel.app/0dscf6266.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+        'https://hackclub.com/_next/image?url=https%3A%2F%2Fcdn.glitch.com%2Fa7605379-7582-4aac-8f44-45bbdfca0cfa%252F2020-05-16_screenshot.jpeg%3Fv%3D1589633885855&w=3840&q=75',
+      bankURL: 'https://hackclub.com/elon/',
+      alt: 'Hack Club AMA with Elon Musk'
     },
     {
       colour: '#33d6a6',
       image:
         'https://cloud-gl9wxq3eq-hack-club-bot.vercel.app/0color_pop.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://bank.hackclub.com/hackpenn',
+      alt: 'Hacker at Hack Pennsylvania 2019'
     },
     {
       colour: '#5bc0de',
       image:
         'https://cloud-dcqabdfwp-hack-club-bot.vercel.app/0img-20210918-wa0091.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://india.hackclub.com',
+      alt: 'Hack Club meetup in Kerala'
     },
     {
       colour: '#338eda',
       image:
         'https://cloud-klueraam9-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.20.30_pm.png',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+      bankURL: 'https://www.youtube.com/watch?v=rumyxiDst3w',
+      alt: 'Delivering laptops to hackers in rural India'
     },
     {
-      colour: '#a633d6',
+      colour: '#ec3750',
       image:
         'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
