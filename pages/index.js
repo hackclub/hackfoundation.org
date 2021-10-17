@@ -120,14 +120,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
       alt: 'Delivering laptops to hackers in rural India'
     },
     {
-      colour: '#ec3750',
+      colour: '#a633d6',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+        'https://cloud-alnbf5hab-hack-club-bot.vercel.app/0img_20210830_161125.jpg',
+      bankURL: 'https://bank.hackclub.com/wild-wild-west',
+      alt: 'Winner of the Hacker Games 2021'
     },
     {
-      colour: '#a633d6',
+      colour: '#ec3750',
       image:
         'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
