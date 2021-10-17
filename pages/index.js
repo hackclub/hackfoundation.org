@@ -136,9 +136,9 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ff8c37',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+        'https://executebig.org/images/events/codedaydc_hack.jpg',
+      bankURL: 'https://executebig.org/journals/moveout/',
+      alt: 'An ExecuteBig event, a nonprofit that began on Bank'
     }
   ]
 
