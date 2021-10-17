@@ -129,9 +129,9 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ec3750',
       image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
-      bankURL: 'https://bank.hackclub.com/zephyr',
-      alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
+        'https://camp.hackclub.com/camp/sf.jpg',
+      bankURL: 'https://camp.hackclub.com/',
+      alt: 'The first Hack Camp in SF'
     },
     {
       colour: '#ff8c37',
