@@ -92,7 +92,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
-      colour: '#a633d6',
+      colour: '#ec3750',
       image:
         'https://hackclub.com/_next/image?url=https%3A%2F%2Fcdn.glitch.com%2Fa7605379-7582-4aac-8f44-45bbdfca0cfa%252F2020-05-16_screenshot.jpeg%3Fv%3D1589633885855&w=3840&q=75',
       bankURL: 'https://hackclub.com/elon/',
@@ -127,7 +127,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
-      colour: '#ec3750',
+      colour: '#a633d6',
       image:
         'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
       bankURL: 'https://bank.hackclub.com/zephyr',
