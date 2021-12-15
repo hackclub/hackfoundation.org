@@ -36,7 +36,7 @@ html.dark body {
 }
 
 .a {
-    @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
+    @apply underline hover:no-underline hover:bg-red-400 hover:bg-opacity-20 hover:cursor-pointer;
 }
 
 .underline {
