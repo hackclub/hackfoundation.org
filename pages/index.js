@@ -362,10 +362,15 @@ see the source: https://github.com/hackclub/hackfoundation.org
         }}
       >
         {events.map((event, i) => (
-          <Box sx={{position: 'relative', height: '25vh',
-          '@media screen and (orientation: portrait)': {
-            height: ['33vw', '25vw']
-          },}}>
+          <Box
+            sx={{
+              position: 'relative',
+              height: '25vh',
+              '@media screen and (orientation: portrait)': {
+                height: ['33vw', '25vw']
+              }
+            }}
+          >
             <Box
               as="a"
               title={event.alt}
@@ -405,7 +410,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 <Icon glyph="external" />
               </Box>
             </Box>
-            <Image src={event.image} alt={event.alt} layout='fill' objectFit="cover" className="next-image" />
+            <Image
+              placeholder="blur"
+              src={event.image}
+              alt={event.alt}
+              layout="fill"
+              objectFit="cover"
+              className="next-image"
+            />
           </Box>
         ))}
       </Grid>
