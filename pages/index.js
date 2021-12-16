@@ -3,6 +3,23 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 import Meta from '@hackclub/meta'
 import Icon from '@hackclub/icons'
+import Image from 'next/image'
+import ExecuteBig from '../public/codedaydc_hack.jpg'
+import HackCamp from '../public/sf.jpg'
+import HackerGames from '../public/0img_20210830_161125.jpg'
+import LaptopDonations from '../public/0screenshot_2021-10-03_at_4.20.30_pm.png'
+import Kerala from '../public/0img-20210918-wa0091.jpg'
+import HackPenn from '../public/0color_pop.jpg'
+import ElonAMA from '../public/a7605379-7582-4aac-8f44-45bbdfca0cfa%2F2020-05-16_screenshot.jpg'
+import SpaceX from '../public/0spacex_and_hack_club.jpg'
+import FrontlineNotes from '../public/1ae6618_52a8d7fbf108462a8c540fd13973b879_mv2.jpg'
+import Flagship from '../public/flagship.png'
+import MAHacks from '../public/0screenshot_2021-10-03_at_4.07.51_pm.png'
+import HackCamp2020 from '../public/0img_6447.jpg'
+import InnovationCircuit from '../public/0screenshot_2021-10-03_at_3.45.54_pm.png'
+import WindyCity from '../public/6screenshot_2021-10-03_at_3.29.29_pm.png'
+import CharlotteBridgeEditor from '../public/chea-waters-evans-1-20210323-1536x1025.jpg'
+import ZephyrFun from '../public/0screenshot_2021-10-03_at_3.59.34_pm.png'
 
 function hexToRgb(hex) {
   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
@@ -30,113 +47,97 @@ see the source: https://github.com/hackclub/hackfoundation.org
   let events = [
     {
       colour: '#ec3750',
-      image:
-        'https://cloud-fnoocl93d-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_3.59.34_pm.png',
+      image: ZephyrFun,
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hacking onboard The Hacker Zephyr'
     },
     {
       colour: '#ff8c37',
-      image:
-        'https://vtdigger.org/wp-content/uploads/2021/03/chea-waters-evans-1-20210323-1536x1025.jpg',
+      image: CharlotteBridgeEditor,
       bankURL: 'https://bank.hackclub.com/the-charlotte-bridge',
       alt: 'Chea Evans, the Editor of the Charlotte Bridge'
     },
     {
       colour: '#f1c40f',
-      image:
-        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/6screenshot_2021-10-03_at_3.29.29_pm.png',
+      image: WindyCity,
       bankURL: 'https://bank.hackclub.com/169',
       alt: 'Team selfie at Windy City Hacks!'
     },
     {
       colour: '#33d6a6',
-      image:
-        'https://cloud-798qipyeg-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_3.45.54_pm.png',
+      image: InnovationCircuit,
       bankURL: 'https://bank.hackclub.com/the-innovation-circuit',
       alt: 'The Innovation Circuit squad doing some late night bug fixing'
     },
     {
       colour: '#5bc0de',
-      image:
-        'https://cloud-a9wdrf60h-hack-club-bot.vercel.app/0img_6447.jpg',
+      image: HackCamp2020,
       bankURL: 'https://twitter.com/hackcamp2020',
       alt: 'Hacker at Hack Camp 2020'
     },
     {
       colour: '#338eda',
-      image:
-        'https://cloud-caw3vwrgk-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.07.51_pm.png',
+      image: MAHacks,
       bankURL: 'https://mahacks.com',
       alt: 'Hackers hanging out at MAHacks 2019'
     },
     {
       colour: '#a633d6',
-      image:
-        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/068747470733a2f2f636c6f75642d387a6c6179706b68692e76657263656c2e6170702f323032302d30372d33305f757734747a623577746a777176756376366d71323266347a36616232346d75662e706e67.png',
+      image: Flagship,
       bankURL: 'https://flagship.hackclub.com',
-      alt: 'Hack Club leaderss helping one another at Flagship'
+      alt: 'Hack Club leaders helping one another at Flagship'
     },
     {
       colour: '#ec3750',
-      image:
-        'https://cloud-mdfqxm18z-hack-club-bot.vercel.app/1ae6618_52a8d7fbf108462a8c540fd13973b879_mv2.jpg',
+      image: FrontlineNotes,
       bankURL: 'https://www.notesforsupport.org',
-      alt: 'Frontline workers recieving notes for support'
+      alt: 'Frontline workers receiving notes for support'
     },
     {
       colour: '#ff8c37',
-      image:
-        'https://cloud-k18c7grqc-hack-club-bot.vercel.app/0spacex_and_hack_club.jpg',
+      image: SpaceX,
       bankURL: 'https://bank.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#ec3750',
-      image:
-        'https://hackclub.com/_next/image?url=https%3A%2F%2Fcdn.glitch.com%2Fa7605379-7582-4aac-8f44-45bbdfca0cfa%252F2020-05-16_screenshot.jpeg%3Fv%3D1589633885855&w=3840&q=75',
+      image: ElonAMA,
       bankURL: 'https://hackclub.com/elon/',
       alt: 'Hack Club AMA with Elon Musk'
     },
     {
       colour: '#33d6a6',
-      image:
-        'https://cloud-gl9wxq3eq-hack-club-bot.vercel.app/0color_pop.jpg',
+      image: HackPenn,
       bankURL: 'https://bank.hackclub.com/hackpenn',
       alt: 'Hacker at Hack Pennsylvania 2019'
     },
     {
       colour: '#5bc0de',
-      image:
-        'https://cloud-dcqabdfwp-hack-club-bot.vercel.app/0img-20210918-wa0091.jpg',
+      image: Kerala,
       bankURL: 'https://india.hackclub.com',
       alt: 'Hack Club meetup in Kerala'
     },
     {
       colour: '#338eda',
-      image:
-        'https://cloud-klueraam9-hack-club-bot.vercel.app/0screenshot_2021-10-03_at_4.20.30_pm.png',
+      image: LaptopDonations,
       bankURL: 'https://www.youtube.com/watch?v=rumyxiDst3w',
       alt: 'Delivering laptops to hackers in rural India'
     },
     {
       colour: '#a633d6',
-      image:
-        'https://cloud-alnbf5hab-hack-club-bot.vercel.app/0img_20210830_161125.jpg',
+      image: HackerGames,
       bankURL: 'https://bank.hackclub.com/wild-wild-west',
       alt: 'Winner of the Hacker Games 2021'
     },
     {
       colour: '#ec3750',
-      image:
-        'https://camp.hackclub.com/camp/sf.jpg',
+      image: HackCamp,
       bankURL: 'https://camp.hackclub.com/',
       alt: 'The first Hack Camp in SF'
     },
     {
       colour: '#ff8c37',
-      image:
-        'https://executebig.org/images/events/codedaydc_hack.jpg',
+      image: ExecuteBig,
       bankURL: 'https://executebig.org/journals/moveout/',
       alt: 'An ExecuteBig event, a nonprofit that began on Bank'
     }
@@ -361,41 +362,50 @@ see the source: https://github.com/hackclub/hackfoundation.org
         }}
       >
         {events.map((event, i) => (
-          <Box
-            as="a"
-            title={event.alt}
-            href={event.bankURL}
-            key={event.bankURL + '-' + i}
-            target="_blank"
-            sx={{
-              height: '25vh',
-              '@media screen and (orientation: portrait)': {
-                height: ['33vw', '25vw']
-              },
-              backgroundImage: `linear-gradient(90deg, rgba(${
-                hexToRgb(event.colour).r
-              },${hexToRgb(event.colour).g},${
-                hexToRgb(event.colour).b
-              },0.5) 0%, rgba(${hexToRgb(event.colour).r},${
-                hexToRgb(event.colour).g
-              },${hexToRgb(event.colour).b},0.5) 100%), url(${event.image})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              '&>.external':{
-                opacity: 0,
-                transition: 'opacity 0.3s'
-              },
-              ':hover':{
-                '&>.external':{
-                  opacity: 1,
-                  transition: 'opacity 0.2s'
+          <Box sx={{position: 'relative', height: '25vh',
+          '@media screen and (orientation: portrait)': {
+            height: ['33vw', '25vw']
+          },}}>
+            <Box
+              as="a"
+              title={event.alt}
+              href={event.bankURL}
+              key={event.bankURL + '-' + i}
+              target="_blank"
+              sx={{
+                zIndex: 999,
+                position: 'absolute',
+                width: '100%',
+                height: '100%',
+                backgroundImage: `linear-gradient(90deg, rgba(${
+                  hexToRgb(event.colour).r
+                },${hexToRgb(event.colour).g},${
+                  hexToRgb(event.colour).b
+                },0.5) 0%, rgba(${hexToRgb(event.colour).r},${
+                  hexToRgb(event.colour).g
+                },${hexToRgb(event.colour).b},0.5) 100%)`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                '&>.external': {
+                  opacity: 0,
+                  transition: 'opacity 0.3s'
+                },
+                ':hover': {
+                  '&>.external': {
+                    opacity: 1,
+                    transition: 'opacity 0.2s'
+                  }
                 }
-              }
-            }}
-          >
-            <Box sx={{ color: 'white', float: 'right', p: 1}} className="external">
-              <Icon glyph="external" />
+              }}
+            >
+              <Box
+                sx={{ color: 'white', float: 'right', p: 1 }}
+                className="external"
+              >
+                <Icon glyph="external" />
+              </Box>
             </Box>
+            <Image src={event.image} alt={event.alt} layout='fill' objectFit="cover" className="next-image" />
           </Box>
         ))}
       </Grid>
@@ -421,7 +431,13 @@ see the source: https://github.com/hackclub/hackfoundation.org
               background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
               --tw-bg-opacity:0.2
           }
-          
+          .next-image{
+            position: absolute;
+            top: 0;
+            z-index: 0;
+            height: 100%;
+            width: 100%;
+          }
           `}
       </style>
     </Grid>
