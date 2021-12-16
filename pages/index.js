@@ -160,7 +160,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         name="The Hack Foundation"
         title="The Hack Foundation"
         description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
-        image="https://camo.githubusercontent.com/bab1c7d453175fc8658c1149be2b044107d10d6ef857d171c547e79e4fdf4632/68747470733a2f2f636c6f75642d6b31386337677271632d6861636b2d636c75622d626f742e76657263656c2e6170702f307370616365785f616e645f6861636b5f636c75622e6a7067"
+        image="https://cloud-nhm79e8am-hack-club-bot.vercel.app/0screenshot_2021-12-16_at_21.01.41.png"
       />
       <Container
         py={4}
