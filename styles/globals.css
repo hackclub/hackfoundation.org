@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+        format('woff'),
+      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+        format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+        format('woff'),
+      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+        format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 @layer utilities {
     .w-fitcontent {
         width: fit-content;
@@ -23,7 +46,7 @@ html.dark body {
 }
 
 .a {
-    @apply underline hover:no-underline hover:bg-yellow-300 hover:bg-opacity-20 hover:cursor-pointer;
+    @apply underline hover:no-underline hover:bg-red-400 hover:bg-opacity-20 hover:cursor-pointer;
 }
 
 .underline {

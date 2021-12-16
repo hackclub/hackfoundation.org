@@ -21,7 +21,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
   const { theme, systemTheme } = useTheme()
   const isDark = theme === "dark" || (theme === "system" && systemTheme === "dark")
   return (
-    <div className="vertical-center py-4 md:py-12 my-4 md:my-0">
+    <div className="font-fraunces vertical-center py-4 md:py-20 my-4 md:my-0">
       <Meta
         as={Head}
         name="The Hack Foundation"
@@ -31,7 +31,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
       />
       <main className="m-10 md:mx-12 lg:mx-24 md:my-2 flex flex-row xl:w-full justify-center">
         <section className="safe flex flex-col space-y-8 md:space-y-0 md:gap-0 md:grid md:grid-cols-3 xl:max-w-6xl">
-            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-5 text-lg xl:text-xl">
+            <section id="main" className="md:mr-16 md:col-span-2 flex flex-col space-y-5 text-lg">
               <p>
                 <b>The Hack Foundation</b> was founded in 2016 to serve as the legal entity for <a target="_blank" className="a" href="https://hackclub.com">Hack Club</a>, a nonprofit network of high schoolers creating the coding education they wish they could have.
               </p>
