@@ -471,10 +471,10 @@
   resolved "https://registry.yarnpkg.com/@hackclub/icons/-/icons-0.0.9.tgz#77a6a6420b7381f54c8be3a0713915d503624951"
   integrity sha512-6doI5dv8BaTjgfDhRMaudOuk0j0ir9DAP1vBn0lXrJ/QCkpoMrGOwILGOkV2Pa1EJ67dVSrbf+k/rvP7c36gAA==
 
-"@hackclub/meta@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@hackclub/meta/-/meta-1.1.0.tgz#08051822921ff1406b23ff242d3ce395908c7817"
-  integrity sha512-YgDkhrKVzElaoEAf5xcXu0C5RKqwft2g2Rk26dHdcRrb3oOUDa9mJM6O0KC2VJ4G7/iLO+qotUnc/vtsREugVw==
+"@hackclub/meta@^1.1.32":
+  version "1.1.32"
+  resolved "https://registry.yarnpkg.com/@hackclub/meta/-/meta-1.1.32.tgz#ce10461cb440d42649d106d779946341cef9c42d"
+  integrity sha512-vevgJP1jsbSn1TCLPJWZsmVJ51DcyOsXtMlUXmIPPGaTNPm2WwEQLOWrVmb5lpZJsONLeSmcQCrx4rpmGeyYIw==
 
 "@hackclub/theme@^0.3.3":
   version "0.3.3"
@@ -2039,7 +2039,7 @@ lodash@^4.17.19:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.1.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -2565,7 +2565,7 @@ react-is@17.0.2:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
