@@ -14,7 +14,7 @@
     "@hackclub/meta": "^1.1.32",
     "@hackclub/theme": "^0.3.3",
     "@mdx-js/loader": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/react": "^2.0.0",
     "@next/mdx": "^10.0.4",
     "next": "^12.0.9",
     "prop-types": "^15.8.1",
