@@ -60,7 +60,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#f1c40f',
       image: WindyCity,
-      bankURL: 'https://bank.hackclub.com/169',
+      bankURL: 'https://bank.hackclub.com/windyhacks',
       alt: 'Team selfie at Windy City Hacks!'
     },
     {
@@ -237,8 +237,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
           </a>
         </p>
         <p>
-          The Hack Foundation and all its software has been built over the years
-          by teenagers at Hack Club. Today's supporters include Elon Musk,
+          The Hack Foundation and all its software have been built over the
+          years by teenagers at Hack Club. Today's supporters include Elon Musk,
           Vitalik Buterin, Google.org, among many others and hundreds of
           individual supporters.
         </p>
