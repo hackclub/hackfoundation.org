@@ -157,8 +157,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
     >
       <Meta
         as={Head}
-        name="The Hack Foundation"
-        title="The Hack Foundation"
+        name="Hack Foundation"
+        title="Hack Foundation"
         description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
         image="https://cloud-nhm79e8am-hack-club-bot.vercel.app/0screenshot_2021-12-16_at_21.01.41.png"
       />
@@ -185,7 +185,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
             width: 'max-content'
           }}
         >
-          The Hack Foundation
+          Hack Foundation
         </Heading>
         <p className="mt-0" style={{ marginTop: '10px!important' }}>
           The Hack Foundation (EIN: 81-2908499) was founded in 2016 to serve as
@@ -197,7 +197,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           they wish they could have.
         </p>
         <p>
-          In 2018, The Hack Foundation expanded to act as a nonprofit{' '}
+          In 2018, the Hack Foundation expanded to act as a nonprofit{' '}
           <a
             target="_blank"
             className="a"
@@ -225,7 +225,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           >
             the largest high-school hackathon in Pennsylvania
           </a>{' '}
-          are fiscally sponsored by The Hack Foundation. Partnered organizations
+          are fiscally sponsored by the Hack Foundation. Partnered organizations
           receive the benefits of 501(c)(3) nonprofit status, administrative and
           backoffice support, financial oversight, and transparency tools.
         </p>
