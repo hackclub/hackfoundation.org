@@ -159,7 +159,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         as={Head}
         name="The Hack Foundation"
         title="The Hack Foundation"
-        description="The Hack Foundation partners with over 330 non-profit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
+        description="The Hack Foundation partners with over 450 nonprofit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
         image="https://cloud-nhm79e8am-hack-club-bot.vercel.app/0screenshot_2021-12-16_at_21.01.41.png"
       />
       <Container
