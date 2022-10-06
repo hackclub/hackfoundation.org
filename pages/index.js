@@ -254,7 +254,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <Grid columns={['1fr', '1fr 1fr']} my={3}>
           <div>
             <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
-              Our Board
+              Board of Directors
             </h3>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
               <Text sx={{ pr: 3 }}>
@@ -291,7 +291,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           </div>
           <div>
             <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
-              990s Tax Forms
+              Public Filings (990s)
             </h3>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
               <a
