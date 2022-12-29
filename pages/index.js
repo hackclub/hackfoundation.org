@@ -352,7 +352,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 Form 1023
               </a>
               <a
-                target="_blank"
+                target="https://cloud-ybr5ofju3-hack-club-bot.vercel.app/0hack_foundation_2021_audited_financial_statements_-_final.pdf"
                 className="a"
                 style={{ marginRight: '12px' }}
                 href="#"
