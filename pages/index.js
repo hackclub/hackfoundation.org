@@ -291,9 +291,17 @@ see the source: https://github.com/hackclub/hackfoundation.org
           </div>
           <div>
             <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
-              Public Filings (990s)
+              Public Filings (990s & 1023)
             </h3>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
+                href="mailto:bank@hackclub.com?subject=The Hack Foundation 2021 Form 990 Request"
+              >
+                2021
+              </a>
               <a
                 target="_blank"
                 className="a"
@@ -333,6 +341,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 href="https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf"
               >
                 2016
+              </a>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
+                href="mailto:bank@hackclub.com?subject=The Hack Foundation Form 1023 Request"
+              >
+                Form 1023
               </a>
             </Box>
           </div>
