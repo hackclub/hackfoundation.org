@@ -298,6 +298,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 target="_blank"
                 className="a"
                 style={{ marginRight: '12px' }}
+                href="https://cloud-enqxjo9x5-hack-club-bot.vercel.app/0the_hack_foundation_w9_2023.pdf"
+              >
+                2023
+              </a>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
                 href="https://cloud-7x3a5c2nl-hack-club-bot.vercel.app/0form990package.pdf"
               >
                 2020
