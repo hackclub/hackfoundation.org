@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/styled": "^11.11.0",
     "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.10.4",
     "@hackclub/icons": "^0.0.9",
     "@hackclub/meta": "^1.1.32",
     "@hackclub/theme": "^0.3.3",
