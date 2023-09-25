@@ -10,7 +10,7 @@
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@emotion/react": "^11.11.1",
-    "@hackclub/icons": "^0.0.12",
+    "@hackclub/icons": "^0.0.14",
     "@hackclub/meta": "^1.1.32",
     "@hackclub/theme": "^0.3.3",
     "@mdx-js/loader": "^1.6.22",
