@@ -48,98 +48,98 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ec3750',
       image: ZephyrFun,
-      bankURL: 'https://bank.hackclub.com/zephyr',
+      hcbURL: 'https://hcb.hackclub.com/zephyr',
       alt: 'Hacking onboard The Hacker Zephyr'
     },
     {
       colour: '#ff8c37',
       image: CharlotteBridgeEditor,
-      bankURL: 'https://bank.hackclub.com/the-charlotte-bridge',
+      hcbURL: 'https://hcb.hackclub.com/the-charlotte-bridge',
       alt: 'Chea Evans, the Editor of the Charlotte Bridge'
     },
     {
       colour: '#f1c40f',
       image: WindyCity,
-      bankURL: 'https://bank.hackclub.com/windyhacks',
+      hcbURL: 'https://hcb.hackclub.com/windyhacks',
       alt: 'Team selfie at Windy City Hacks!'
     },
     {
       colour: '#33d6a6',
       image: InnovationCircuit,
-      bankURL: 'https://bank.hackclub.com/the-innovation-circuit',
+      hcbURL: 'https://hcb.hackclub.com/the-innovation-circuit',
       alt: 'The Innovation Circuit squad doing some late night bug fixing'
     },
     {
       colour: '#5bc0de',
       image: HackCamp2020,
-      bankURL: 'https://twitter.com/hackcamp2020',
+      hcbURL: 'https://twitter.com/hackcamp2020',
       alt: 'Hacker at Hack Camp 2020'
     },
     {
       colour: '#338eda',
       image: MAHacks,
-      bankURL: 'https://mahacks.com',
+      hcbURL: 'https://mahacks.com',
       alt: 'Hackers hanging out at MAHacks 2019'
     },
     {
       colour: '#a633d6',
       image: Flagship,
-      bankURL: 'https://flagship.hackclub.com',
+      hcbURL: 'https://flagship.hackclub.com',
       alt: 'Hack Club leaders helping one another at Flagship'
     },
     {
       colour: '#ec3750',
       image: FrontlineNotes,
-      bankURL: 'https://www.notesforsupport.org',
+      hcbURL: 'https://www.notesforsupport.org',
       alt: 'Frontline workers receiving notes for support'
     },
     {
       colour: '#ff8c37',
       image: SpaceX,
-      bankURL: 'https://bank.hackclub.com/zephyr',
+      hcbURL: 'https://hcb.hackclub.com/zephyr',
       alt: 'Hack Clubbers at SpaceX after the Hacker Zephyr'
     },
     {
       colour: '#ec3750',
       image: ElonAMA,
-      bankURL: 'https://hackclub.com/elon/',
+      hcbURL: 'https://hackclub.com/elon/',
       alt: 'Hack Club AMA with Elon Musk'
     },
     {
       colour: '#33d6a6',
       image: HackPenn,
-      bankURL: 'https://bank.hackclub.com/hackpenn',
+      hcbURL: 'https://hcb.hackclub.com/hackpenn',
       alt: 'Hacker at Hack Pennsylvania 2019'
     },
     {
       colour: '#5bc0de',
       image: Kerala,
-      bankURL: 'https://india.hackclub.com',
+      hcbURL: 'https://india.hackclub.com',
       alt: 'Hack Club meetup in Kerala'
     },
     {
       colour: '#338eda',
       image: LaptopDonations,
-      bankURL: 'https://www.youtube.com/watch?v=rumyxiDst3w',
+      hcbURL: 'https://www.youtube.com/watch?v=rumyxiDst3w',
       alt: 'Delivering laptops to hackers in rural India'
     },
     {
       colour: '#a633d6',
       image: HackerGames,
-      bankURL: 'https://bank.hackclub.com/wild-wild-west',
+      hcbURL: 'https://hcb.hackclub.com/wild-wild-west',
       alt: 'Winner of the Hacker Games 2021'
     },
     {
       colour: '#ec3750',
       image: HackCamp,
-      bankURL: 'https://camp.hackclub.com/',
+      hcbURL: 'https://camp.hackclub.com/',
       alt: 'The first Hack Camp in SF'
     },
     {
       colour: '#ff8c37',
       image: ExecuteBig,
-      bankURL: 'https://executebig.org/journals/moveout/',
-      alt: 'An ExecuteBig event, a nonprofit that began on Bank'
+      hcbURL: 'https://executebig.org/journals/moveout/',
+      alt: 'An ExecuteBig event, a nonprofit that began on HCB'
     }
   ]
 
@@ -213,7 +213,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           <a
             target="_blank"
             className="a"
-            href="https://bank.hackclub.com/the-charlotte-bridge"
+            href="https://hcb.hackclub.com/the-charlotte-bridge"
           >
             small town newspaper in Vermont
           </a>{' '}
@@ -221,7 +221,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           <a
             target="_blank"
             className="a"
-            href="https://bank.hackclub.com/hackpenn"
+            href="https://hcb.hackclub.com/hackpenn"
           >
             the largest high-school hackathon in Pennsylvania
           </a>{' '}
@@ -232,7 +232,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <p>
           If you would like to learn more about partnering with The Hack
           Foundation for your organization,{' '}
-          <a target="_blank" className="a" href="https://hackclub.com/bank/">
+          <a target="_blank" className="a" href="https://hackclub.com/hcb/">
             please see here.
           </a>
         </p>
@@ -245,7 +245,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <p>
           As it grows, the Hack Foundation is exploring ways in which it can be
           responsible, as part of this we have recently made{' '}
-          <a target="_blank" className="a" href="https://bank.hackclub.com/hq/">
+          <a target="_blank" className="a" href="https://hcb.hackclub.com/hq/">
             our entire finances 100% transparent
           </a>
           .
@@ -381,8 +381,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
             <Box
               as="a"
               title={event.alt}
-              href={event.bankURL}
-              key={event.bankURL + '-' + i}
+              href={event.hcbURL}
+              key={event.hcbURL + '-' + i}
               target="_blank"
               sx={{
                 zIndex: 999,
