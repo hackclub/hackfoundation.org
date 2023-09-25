@@ -377,12 +377,12 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 height: ['33vw', '25vw']
               }
             }}
+            key={i}
           >
             <Box
               as="a"
               title={event.alt}
               href={event.hcbURL}
-              key={event.hcbURL + '-' + i}
               target="_blank"
               sx={{
                 zIndex: 999,
