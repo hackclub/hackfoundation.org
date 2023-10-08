@@ -251,7 +251,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           .
         </p>
         <Box sx={{ borderBottom: 'rgba(229,231,235,1) solid 2px' }} />
-        <Grid columns={['1fr', '1fr 1fr']} my={3}>
+        <Grid columns={['1fr', '1fr 1fr']} mt={3} mb={2}>
           <div>
             <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
               Board of Directors
@@ -337,6 +337,39 @@ see the source: https://github.com/hackclub/hackfoundation.org
             </Box>
           </div>
         </Grid>
+        <Box mb={3}>
+          <div>
+            <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
+              Additional Legal Documents
+            </h3>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
+                href="#"
+              >
+                Form 1023
+              </a>
+              <a
+                target="https://cloud-ybr5ofju3-hack-club-bot.vercel.app/0hack_foundation_2021_audited_financial_statements_-_final.pdf"
+                className="a"
+                style={{ marginRight: '12px' }}
+                href="#"
+              >
+                Audited Financial Statements
+              </a>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
+                href="#"
+              >
+                Conflict of Interest Policy
+              </a>
+            </Box>
+          </div>
+        </Box>
         <Box sx={{ borderBottom: 'rgba(229,231,235,1) solid 2px', mb: 3 }} />
         <Box sx={{ margin: 'auto', textAlign: 'center', mt: 4 }}>
           <a href="https://hackclub.com/">
