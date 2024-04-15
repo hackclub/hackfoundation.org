@@ -143,6 +143,37 @@ see the source: https://github.com/hackclub/hackfoundation.org
     }
   ]
 
+  const publicFilings = [
+    {
+      year: 2022,
+      link: 'https://cloud-go5f9c6qt-hack-club-bot.vercel.app/0hack_foundation_2022_form_990_-_public_copy.pdf'
+    },
+    {
+      year: 2021,
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_202112_990_2023051021199297.pdf'
+    },
+    {
+      year: 2020,
+      link: 'https://cloud-7x3a5c2nl-hack-club-bot.vercel.app/0form990package.pdf'
+    },
+    {
+      year: 2019,
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf'
+    },
+    {
+      year: 2018,
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf'
+    },
+    {
+      year: 2017,
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf'
+    },
+    {
+      year: 2016,
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf'
+    }
+  ]
+
   return (
     <Grid
       sx={{
@@ -294,62 +325,16 @@ see the source: https://github.com/hackclub/hackfoundation.org
               Public Filings (990s)
             </h3>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://cloud-go5f9c6qt-hack-club-bot.vercel.app/0hack_foundation_2022_form_990_-_public_copy.pdf"
-              >
-                2022
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://apps.irs.gov/pub/epostcard/cor/812908499_202112_990_2023051021199297.pdf"
-              >
-                2021
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://cloud-7x3a5c2nl-hack-club-bot.vercel.app/0form990package.pdf"
-              >
-                2020
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf"
-              >
-                2019
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf"
-              >
-                2018
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf"
-              >
-                2017
-              </a>
-              <a
-                target="_blank"
-                className="a"
-                style={{ marginRight: '12px' }}
-                href="https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf"
-              >
-                2016
-              </a>
+              {publicFilings.map(({ year, link }) => (
+                <a
+                  target="_blank"
+                  className="a"
+                  style={{ marginRight: '12px' }}
+                  href={link}
+                >
+                  {year}
+                </a>
+              ))}
             </Box>
           </div>
         </Grid>
