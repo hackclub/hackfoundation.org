@@ -298,6 +298,14 @@ see the source: https://github.com/hackclub/hackfoundation.org
                 target="_blank"
                 className="a"
                 style={{ marginRight: '12px' }}
+                href="https://cloud-go5f9c6qt-hack-club-bot.vercel.app/0hack_foundation_2022_form_990_-_public_copy.pdf"
+              >
+                2022
+              </a>
+              <a
+                target="_blank"
+                className="a"
+                style={{ marginRight: '12px' }}
                 href="https://apps.irs.gov/pub/epostcard/cor/812908499_202112_990_2023051021199297.pdf"
               >
                 2021
