@@ -146,7 +146,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
   const publicFilings = [
     {
       year: 2022,
-      link: 'https://cloud-go5f9c6qt-hack-club-bot.vercel.app/0hack_foundation_2022_form_990_-_public_copy.pdf'
+      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_202212_990_2024011022205181.pdf'
     },
     {
       year: 2021,
