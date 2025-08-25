@@ -145,6 +145,10 @@ see the source: https://github.com/hackclub/hackfoundation.org
 
   const publicFilings = [
     {
+      year: 2023,
+      link: 'https://projects.propublica.org/nonprofits/organizations/812908499/202423209349312247/full'
+    },
+    {
       year: 2022,
       link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_202212_990_2024011022205181.pdf'
     },
