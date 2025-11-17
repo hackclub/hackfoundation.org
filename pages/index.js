@@ -145,6 +145,10 @@ see the source: https://github.com/hackclub/hackfoundation.org
 
   const publicFilings = [
     {
+      year: 2024,
+      link: 'https://projects.propublica.org/nonprofits/organizations/581802331/202531689349100408/full'
+    },
+    {
       year: 2023,
       link: 'https://projects.propublica.org/nonprofits/organizations/812908499/202423209349312247/full'
     },
