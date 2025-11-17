@@ -442,10 +442,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.3.1.tgz#d0fce5d07b0620caa282b5131c297bb60f9d87e6"
   integrity sha512-EsBwpc7hBUJWAsNPBmJy4hxWx12v6bshQsldrVmjxJoc3isbxhOrF2IcCpaXxfvq03NwkI7sbsOLXbYuqF/8Ww==
 
-"@hackclub/icons@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@hackclub/icons/-/icons-0.0.12.tgz#a82dd20fdbc263c956aaee3ec8689078965d22fa"
-  integrity sha512-YXPpalHN0lEjgaUD++u43NucSfgXlaQRbNKH+CJusS9erCF1jyu0pUH0peXqmlWZybbIg1PnuYJyOvKDvACA2g==
+"@hackclub/icons@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@hackclub/icons/-/icons-0.0.14.tgz#c590432d5a1e4b39c384d577e59e24bffdd94197"
+  integrity sha512-xH/DV6TxlsvLuNGeBIausfKlH4eyp6CYXCckAxcYahL2NOdcZTZoJWKZBG38BzM5WfWnhfFkud/mQ5bqeFQK3g==
 
 "@hackclub/meta@^1.1.32":
   version "1.1.32"
