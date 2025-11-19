@@ -78,7 +78,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#338eda',
       image: MAHacks,
-      hcbURL: 'https://mahacks.com',
+      hcbURL: 'https://hcb.hackclub.com/mahacks/transactions',
       alt: 'Hackers hanging out at MAHacks 2019'
     },
     {
