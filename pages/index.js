@@ -78,7 +78,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#338eda',
       image: MAHacks,
-      hcbURL: 'https://mahacks.com',
+      hcbURL: 'https://hcb.hackclub.com/mahacks/transactions',
       alt: 'Hackers hanging out at MAHacks 2019'
     },
     {
@@ -90,7 +90,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ec3750',
       image: FrontlineNotes,
-      hcbURL: 'https://www.notesforsupport.org',
+      hcbURL: 'https://www.instagram.com/notesforsupport/',
       alt: 'Frontline workers receiving notes for support'
     },
     {
@@ -114,7 +114,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#5bc0de',
       image: Kerala,
-      hcbURL: 'https://india.hackclub.com',
+      hcbURL: 'https://web.archive.org/web/20250305140019/http://kerala.hackclub.com/',
       alt: 'Hack Club meetup in Kerala'
     },
     {
@@ -132,13 +132,13 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#ec3750',
       image: HackCamp,
-      hcbURL: 'https://camp.hackclub.com/',
+      hcbURL: 'https://github.com/hackclub/camp',
       alt: 'The first Hack Camp in SF'
     },
     {
       colour: '#ff8c37',
       image: ExecuteBig,
-      hcbURL: 'https://executebig.org/journals/moveout/',
+      hcbURL: 'https://executebig.org/',
       alt: 'An ExecuteBig event, a nonprofit that began on HCB'
     }
   ]
@@ -433,6 +433,9 @@ see the source: https://github.com/hackclub/hackfoundation.org
               layout="fill"
               objectFit="cover"
               className="next-image"
+              priority={i < 4}
+              quality={75}
+              sizes="(max-width: 768px) 33vw, 25vh"
             />
           </Box>
         ))}
