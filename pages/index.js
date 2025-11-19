@@ -434,7 +434,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
               objectFit="cover"
               className="next-image"
               priority={i < 4}
-              quality={85}
+              quality={75}
+              sizes="(max-width: 768px) 33vw, 25vh"
             />
           </Box>
         ))}
