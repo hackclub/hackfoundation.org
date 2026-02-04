@@ -162,7 +162,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
     },
     {
       year: 2020,
-      link: 'https://cloud-7x3a5c2nl-hack-club-bot.vercel.app/0form990package.pdf'
+      link: 'https://cdn.hackclub.com/019c2686-9017-701c-8530-98dfd69a2f12/HackFound990_2020.pdf'
     },
     {
       year: 2019,
