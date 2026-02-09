@@ -146,7 +146,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
   const publicFilings = [
     {
       year: 2024,
-      link: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/de615b00d6923a7b46ac6c866e9d2782a633a0c6_hack_club_fy24_990_-_public.pdf'
+      link: 'https://cdn.hackclub.com/rescue?url=https://hc-cdn.hel1.your-objectstorage.com/s/v3/de615b00d6923a7b46ac6c866e9d2782a633a0c6_hack_club_fy24_990_-_public.pdf'
     },
     {
       year: 2023,
