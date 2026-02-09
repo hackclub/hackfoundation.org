@@ -146,39 +146,39 @@ see the source: https://github.com/hackclub/hackfoundation.org
   const publicFilings = [
     {
       year: 2024,
-      link: 'https://hc-cdn.hel1.your-objectstorage.com/s/v3/de615b00d6923a7b46ac6c866e9d2782a633a0c6_hack_club_fy24_990_-_public.pdf'
+      link: 'https://cdn.hackclub.com/019c4366-66a7-7b57-8103-5d7731c114d3/812908499_2024_202533219349309698_990.pdf'
     },
     {
       year: 2023,
-      link: 'https://projects.propublica.org/nonprofits/organizations/812908499/202423209349312247/full'
+      link: 'https://cdn.hackclub.com/019c4366-d33c-7b59-a778-f1a932036d43/812908499_2023_202423209349312247_990.pdf'
     },
     {
       year: 2022,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_202212_990_2024011022205181.pdf'
+      link: 'https://cdn.hackclub.com/019c4367-399e-76b5-8198-66ab98fb6ea9/812908499_2022_202333199349306488_990.pdf'
     },
     {
       year: 2021,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_202112_990_2023051021199297.pdf'
+      link: 'https://cdn.hackclub.com/019c4367-84af-7e6c-a8bc-cb7dabd69f9f/812908499_2021_202243189349308489_990.pdf'
     },
     {
       year: 2020,
-      link: 'https://cloud-7x3a5c2nl-hack-club-bot.vercel.app/0form990package.pdf'
+      link: 'https://cdn.hackclub.com/019c4367-d7be-73b2-bf65-933c982b3d07/812908499_2020_202103239349300740_990.pdf'
     },
     {
       year: 2019,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201912_990_2021022417751020.pdf'
+      link: 'https://cdn.hackclub.com/019c4371-164a-70cf-9c75-94498c78672d/812908499_2019_202043159349300849_990.pdf'
     },
     {
       year: 2018,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201812_990_2020013017086607.pdf'
+      link: 'https://cdn.hackclub.com/019c4371-67ac-7e95-9c5c-4e23af67e34c/812908499_2018_17086607_990.pdf'
     },
     {
       year: 2017,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201712_990EZ_2019112216882661.pdf'
+      link: 'https://cdn.hackclub.com/019c4371-b1fd-7d32-bdf9-98af4271b373/812908499_2017_114adaea_990EZ.pdf'
     },
     {
       year: 2016,
-      link: 'https://apps.irs.gov/pub/epostcard/cor/812908499_201612_990EZ_2019080116538191.pdf'
+      link: 'https://cdn.hackclub.com/019c4371-f12c-7b26-81c7-548097463ecc/812908499_2016_10d1893a_990EZ.pdf'
     }
   ]
 
@@ -199,7 +199,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
         name="The Hack Foundation"
         title="The Hack Foundation"
         description="The Hack Foundation partners with over 500 nonprofit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
-        image="https://cloud-nhm79e8am-hack-club-bot.vercel.app/0screenshot_2021-12-16_at_21.01.41.png"
+        image="https://cdn.hackclub.com/019c4372-495b-7fa5-8e57-342ca8906dca/Screenshot%202021-12-16%20at%2021.01.41.png"
       />
       <Container
         py={4}
