@@ -335,6 +335,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
               {publicFilings.map(({ year, link }) => (
                 <a
+                  key={year}
                   target="_blank"
                   className="a"
                   style={{ marginRight: '12px' }}
@@ -349,9 +350,11 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <Box sx={{ borderBottom: 'rgba(229,231,235,1) solid 2px', mb: 3 }} />
         <Box sx={{ margin: 'auto', textAlign: 'center', mt: 4 }}>
           <a href="https://hackclub.com/">
-            <img
+            <Image
               src="https://assets.hackclub.com/flag-standalone.png"
-              width="100px"
+              alt="Hack Club flag"
+              width={100}
+              height={35}
             />
           </a>
         </Box>
@@ -430,8 +433,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
               placeholder="blur"
               src={event.image}
               alt={event.alt}
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }}
               className="next-image"
               priority={i < 4}
               quality={75}
