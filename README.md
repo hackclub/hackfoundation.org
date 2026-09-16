@@ -26,6 +26,6 @@ The production image uses a two-stage build based entirely on [Docker Hardened I
    docker compose up --build -d
    ```
 
-The site is available at <http://localhost:3000>. Set `WEB_PORT` to publish a different host port, for example `WEB_PORT=8080 docker compose up --build -d`.
+The site is available at <http://localhost:80>. Set `WEB_PORT` to publish a different host port, for example `WEB_PORT=8080 docker compose up --build -d`.
 
 Check its status and logs with `docker compose ps` and `docker compose logs -f web`. Stop it with `docker compose down`.
