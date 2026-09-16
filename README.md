@@ -9,3 +9,23 @@ By [2019](https://medium.com/hackclub/hack-club-bank-is-now-live-for-everyone-in
 Hack Club HQ ourselves [runs on The Hack Foundation's platforms](https://hcb.hackclub.com/hq), and we want to continue doing so to make sure we invest in making it better.
 
 Every year, tens of thousands of people are impacted by organizations operating under The Hack Foundation. Partnered organizations receive the benefits of 501(c)(3) nonprofit status, administrative and backoffice support, and financial oversight.
+
+## Docker deployment
+
+The production image uses a two-stage build based entirely on [Docker Hardened Images](https://docs.docker.com/dhi/): a Bun development image builds the site, then a minimal Node.js runtime image runs the Next.js standalone server as a non-root user.
+
+1. Sign in to the Docker Hardened Images registry:
+
+   ```sh
+   docker login dhi.io
+   ```
+
+2. Build and start the service:
+
+   ```sh
+   docker compose up --build -d
+   ```
+
+The site is available at <http://localhost:3000>. Set `WEB_PORT` to publish a different host port, for example `WEB_PORT=8080 docker compose up --build -d`.
+
+Check its status and logs with `docker compose ps` and `docker compose logs -f web`. Stop it with `docker compose down`.

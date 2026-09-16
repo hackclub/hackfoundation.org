@@ -1,0 +1,12 @@
+.git
+.github
+.next
+.now
+node_modules
+.DS_Store
+.env
+.env.*
+*.log
+Dockerfile*
+compose*.yaml
+README.md

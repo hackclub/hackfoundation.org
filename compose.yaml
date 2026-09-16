@@ -1,0 +1,17 @@
+services:
+  web:
+    image: hackfoundation.org:local
+    build:
+      context: .
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m
+      - /app/.next/cache:rw,noexec,nosuid,uid=1000,gid=1000,size=128m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
