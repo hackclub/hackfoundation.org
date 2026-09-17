@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "nextjs", "unicorn", "oxc", "import"],
+  "categories": {
+    "correctness": "error"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "node": true,
+    "es2024": true
+  },
+  "ignorePatterns": [".next", "public"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}

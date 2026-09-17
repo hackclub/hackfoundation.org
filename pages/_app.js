@@ -5,10 +5,12 @@ import { ThemeUIProvider } from 'theme-ui'
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <ThemeUIProvider theme={{
-        ...theme,
-        colors: { ...theme.colors, modes: {} }
-      }}>
+      <ThemeUIProvider
+        theme={{
+          ...theme,
+          colors: { ...theme.colors, modes: {} }
+        }}
+      >
         <Component {...pageProps} />
       </ThemeUIProvider>
     </>

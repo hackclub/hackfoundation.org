@@ -4,7 +4,7 @@ services:
     build:
       context: .
     ports:
-      - "${WEB_PORT:-80}:80"
+      - '${WEB_PORT:-80}:80'
     restart: unless-stopped
     init: true
     read_only: true

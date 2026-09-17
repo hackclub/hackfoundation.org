@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check ."
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -21,5 +25,9 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "theme-ui": "^0.17.4"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0"
   }
 }

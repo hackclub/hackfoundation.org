@@ -114,7 +114,8 @@ see the source: https://github.com/hackclub/hackfoundation.org
     {
       colour: '#5bc0de',
       image: Kerala,
-      hcbURL: 'https://web.archive.org/web/20250305140019/http://kerala.hackclub.com/',
+      hcbURL:
+        'https://web.archive.org/web/20250305140019/http://kerala.hackclub.com/',
       alt: 'Hack Club meetup in Kerala'
     },
     {
