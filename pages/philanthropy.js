@@ -318,7 +318,7 @@ export default function Philanthropy() {
           }}
         >
           Led by young engineers, Hack Club already reaches tens of thousands of
-          teenagers. With your support, Hack Club can grow to hundreds of
+          teenagers. With a donation to the Hack Foundation, Hack Club can grow to hundreds of
           thousands more.
         </Text>
       </Box>
