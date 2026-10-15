@@ -388,7 +388,7 @@ export default function Philanthropy() {
             <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1, display: 'block' }}>
               Christina Asquith
             </Text>
-            <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3 }}>
+            <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3, display: 'block' }}>
               Cofounder, President, and Board Member
             </Text>
             <Box
