@@ -94,7 +94,7 @@ const impactStories = [
     context:
       'Obrey started a Hack Club in his senior year at Kabulonga Boys’ Secondary School. Soon, a dozen students were coding every week.',
     quote:
-      "Thanks to our donor-funded laptop program, Hack Club sent him a MacBook Air. In his club, Obrey and his best friend Edward built robots that won Canada’s Humanitarian Activist Award."
+      'Thanks to our donor-funded laptop program, Hack Club sent him a MacBook Air. In his club, Obrey and his best friend Edward built robots that won Canada’s Humanitarian Activist Award.'
   },
   {
     name: 'Maggie Liu',
@@ -200,12 +200,30 @@ const pressLogos = [
 ]
 
 const shopItems = [
-  { alt: 'Hoodie', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-hoodie.webp&w=400&q=75' },
-  { alt: 'Mug', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-mug.webp&w=400&q=75' },
-  { alt: 'Tote', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-tote.webp&w=400&q=75' },
-  { alt: 'T-shirt', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-tee.webp&w=400&q=75' },
-  { alt: 'Vest', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-vest.webp&w=400&q=75' },
-  { alt: 'Sticker', src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-sticker.webp&w=400&q=75' }
+  {
+    alt: 'Hoodie',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-hoodie.webp&w=400&q=75'
+  },
+  {
+    alt: 'Mug',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-mug.webp&w=400&q=75'
+  },
+  {
+    alt: 'Tote',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-tote.webp&w=400&q=75'
+  },
+  {
+    alt: 'T-shirt',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-tee.webp&w=400&q=75'
+  },
+  {
+    alt: 'Vest',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-vest.webp&w=400&q=75'
+  },
+  {
+    alt: 'Sticker',
+    src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fshop%2Fshop-sticker.webp&w=400&q=75'
+  }
 ]
 
 function Eyebrow({ children, sx = {} }) {
@@ -276,7 +294,16 @@ export default function Philanthropy() {
           gap: 3
         }}
       >
-        <Box as="a" href="/" sx={{ display: 'flex', alignItems: 'center', gap: 2, textDecoration: 'none' }}>
+        <Box
+          as="a"
+          href="/"
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 2,
+            textDecoration: 'none'
+          }}
+        >
           <Box
             sx={{
               width: 28,
@@ -301,10 +328,22 @@ export default function Philanthropy() {
           </Text>
         </Box>
         <Box sx={{ display: ['none', 'flex'], alignItems: 'center', gap: 4 }}>
-          <Box as="a" href="https://hackclub.com/fiscal-sponsorship" target="_blank" className="a" sx={{ fontSize: '0.9rem', color: 'secondary' }}>
+          <Box
+            as="a"
+            href="https://hackclub.com/fiscal-sponsorship"
+            target="_blank"
+            className="a"
+            sx={{ fontSize: '0.9rem', color: 'secondary' }}
+          >
             Fiscal Sponsorship
           </Box>
-          <Box as="a" href="https://hcb.hackclub.com/hq/" target="_blank" className="a" sx={{ fontSize: '0.9rem', color: 'secondary' }}>
+          <Box
+            as="a"
+            href="https://hcb.hackclub.com/hq/"
+            target="_blank"
+            className="a"
+            sx={{ fontSize: '0.9rem', color: 'secondary' }}
+          >
             Financials
           </Box>
           <Box
@@ -427,9 +466,18 @@ export default function Philanthropy() {
         }}
       >
         {[
-          { src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo8.webp&w=1200&q=75', alt: 'Hack Club teens coding' },
-          { src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo3.webp&w=1200&q=75', alt: 'Hack Club community' },
-          { src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo12.webp&w=1200&q=75', alt: 'Teen hackers' }
+          {
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo8.webp&w=1200&q=75',
+            alt: 'Hack Club teens coding'
+          },
+          {
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo3.webp&w=1200&q=75',
+            alt: 'Hack Club community'
+          },
+          {
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo12.webp&w=1200&q=75',
+            alt: 'Teen hackers'
+          }
         ].map((photo, i) => (
           <Box
             key={i}
@@ -621,7 +669,11 @@ export default function Philanthropy() {
       {/* ── Shop ── */}
       <Box sx={{ bg: '#1a1d2e', color: 'white', py: [4, 5], px: [3, 4] }}>
         <Container sx={{ maxWidth: 1100 }}>
-          <Grid columns={['1fr', null, '1fr 1fr']} gap={[4, 5]} sx={{ alignItems: 'center' }}>
+          <Grid
+            columns={['1fr', null, '1fr 1fr']}
+            gap={[4, 5]}
+            sx={{ alignItems: 'center' }}
+          >
             <Box>
               <Eyebrow sx={{ color: 'rgba(255,255,255,0.5)' }}>
                 Hack Club Shop
@@ -637,7 +689,9 @@ export default function Philanthropy() {
               >
                 You raised a Hack Clubber.
               </Heading>
-              <Text sx={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7, mb: 4 }}>
+              <Text
+                sx={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7, mb: 4 }}
+              >
                 Every item in the Hack Club Shop is our thank-you for a
                 donation, and every donation goes straight to the teenagers who
                 build, ship, and dream at Hack Club.
@@ -743,9 +797,22 @@ export default function Philanthropy() {
               >
                 {tier}
               </Text>
-              <Box as="ul" sx={{ listStyle: 'none', p: 0, display: 'flex', flexWrap: 'wrap', gap: '8px 20px' }}>
+              <Box
+                as="ul"
+                sx={{
+                  listStyle: 'none',
+                  p: 0,
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: '8px 20px'
+                }}
+              >
                 {names.map(name => (
-                  <Box as="li" key={name} sx={{ fontSize: '0.9rem', fontWeight: 500 }}>
+                  <Box
+                    as="li"
+                    key={name}
+                    sx={{ fontSize: '0.9rem', fontWeight: 500 }}
+                  >
                     {name}
                   </Box>
                 ))}
@@ -801,7 +868,13 @@ export default function Philanthropy() {
               }}
             >
               {story.context && (
-                <Text sx={{ fontSize: '0.85rem', color: 'secondary', lineHeight: 1.6 }}>
+                <Text
+                  sx={{
+                    fontSize: '0.85rem',
+                    color: 'secondary',
+                    lineHeight: 1.6
+                  }}
+                >
                   {story.context}
                 </Text>
               )}
@@ -855,7 +928,11 @@ export default function Philanthropy() {
       <Divider />
 
       {/* ── Press ── */}
-      <Container py={[4, 5]} px={[3, 4]} sx={{ maxWidth: 1100, textAlign: 'center' }}>
+      <Container
+        py={[4, 5]}
+        px={[3, 4]}
+        sx={{ maxWidth: 1100, textAlign: 'center' }}
+      >
         <Eyebrow>In the news</Eyebrow>
         <SectionHeading>
           As the largest network of technical teenagers, we are featured in
@@ -916,7 +993,11 @@ export default function Philanthropy() {
             {boardMembers.map(m => (
               <Box
                 key={m.name}
-                sx={{ py: 3, borderBottom: `1px solid ${BORDER}`, '&:last-child': { borderBottom: 'none' } }}
+                sx={{
+                  py: 3,
+                  borderBottom: `1px solid ${BORDER}`,
+                  '&:last-child': { borderBottom: 'none' }
+                }}
               >
                 <Text sx={{ fontWeight: 700, fontSize: '0.95rem' }}>
                   {m.name}
@@ -943,7 +1024,11 @@ export default function Philanthropy() {
             {boardAdvisors.map(m => (
               <Box
                 key={m.name}
-                sx={{ py: 3, borderBottom: `1px solid ${BORDER}`, '&:last-child': { borderBottom: 'none' } }}
+                sx={{
+                  py: 3,
+                  borderBottom: `1px solid ${BORDER}`,
+                  '&:last-child': { borderBottom: 'none' }
+                }}
               >
                 <Text sx={{ fontWeight: 700, fontSize: '0.95rem' }}>
                   {m.name}
@@ -955,7 +1040,15 @@ export default function Philanthropy() {
             ))}
           </Box>
         </Grid>
-        <Box sx={{ bg: 'muted', border: `1px solid ${BORDER}`, borderRadius: 12, p: 4, mt: 5 }}>
+        <Box
+          sx={{
+            bg: 'muted',
+            border: `1px solid ${BORDER}`,
+            borderRadius: 12,
+            p: 4,
+            mt: 5
+          }}
+        >
           <Box
             as="blockquote"
             sx={{
@@ -1005,7 +1098,14 @@ export default function Philanthropy() {
             <Box
               as="li"
               key={item}
-              sx={{ display: 'flex', gap: 3, alignItems: 'flex-start', fontSize: '0.95rem', color: 'secondary', lineHeight: 1.6 }}
+              sx={{
+                display: 'flex',
+                gap: 3,
+                alignItems: 'flex-start',
+                fontSize: '0.95rem',
+                color: 'secondary',
+                lineHeight: 1.6
+              }}
             >
               <Box
                 sx={{
@@ -1117,15 +1217,28 @@ export default function Philanthropy() {
       </Container>
 
       {/* ── Closing CTA ── */}
-      <Box sx={{ bg: '#1a1d2e', color: 'white', py: [5, 6], px: [3, 4], textAlign: 'center' }}>
+      <Box
+        sx={{
+          bg: '#1a1d2e',
+          color: 'white',
+          py: [5, 6],
+          px: [3, 4],
+          textAlign: 'center'
+        }}
+      >
         <Container sx={{ maxWidth: 700 }}>
           <Eyebrow sx={{ color: 'rgba(255,255,255,0.45)' }}>Thank you</Eyebrow>
           <Heading
             as="h2"
-            sx={{ fontSize: ['1.5rem', '2rem'], fontWeight: 800, color: 'white', mb: 3 }}
+            sx={{
+              fontSize: ['1.5rem', '2rem'],
+              fontWeight: 800,
+              color: 'white',
+              mb: 3
+            }}
           >
-            Hack Club invites leading thinkers, builders, and disrupters to
-            join us.
+            Hack Club invites leading thinkers, builders, and disrupters to join
+            us.
           </Heading>
           <Text sx={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7, mb: 4 }}>
             We envision thousands of diverse Hack Club leaders in towns and
@@ -1152,15 +1265,33 @@ export default function Philanthropy() {
             Donate to Hack Club
           </Box>
 
-          <Grid columns="1fr 1fr" gap={4} sx={{ mt: 5, textAlign: 'left', maxWidth: 500, mx: 'auto' }}>
+          <Grid
+            columns="1fr 1fr"
+            gap={4}
+            sx={{ mt: 5, textAlign: 'left', maxWidth: 500, mx: 'auto' }}
+          >
             <Box sx={{ color: 'rgba(255,255,255,0.7)' }}>
-              <Text sx={{ fontWeight: 700, color: 'white', fontSize: '1rem', mb: 1 }}>
+              <Text
+                sx={{
+                  fontWeight: 700,
+                  color: 'white',
+                  fontSize: '1rem',
+                  mb: 1
+                }}
+              >
                 Christina Asquith
               </Text>
               <Text sx={{ fontSize: '0.8rem' }}>Cofounder and President</Text>
             </Box>
             <Box sx={{ color: 'rgba(255,255,255,0.7)' }}>
-              <Text sx={{ fontWeight: 700, color: 'white', fontSize: '1rem', mb: 1 }}>
+              <Text
+                sx={{
+                  fontWeight: 700,
+                  color: 'white',
+                  fontSize: '1rem',
+                  mb: 1
+                }}
+              >
                 Zach Latta
               </Text>
               <Text sx={{ fontSize: '0.8rem' }}>
@@ -1169,7 +1300,14 @@ export default function Philanthropy() {
             </Box>
           </Grid>
 
-          <Box sx={{ mt: 5, fontSize: '0.85rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.7 }}>
+          <Box
+            sx={{
+              mt: 5,
+              fontSize: '0.85rem',
+              color: 'rgba(255,255,255,0.45)',
+              lineHeight: 1.7
+            }}
+          >
             <Text sx={{ fontWeight: 700, color: 'rgba(255,255,255,0.65)' }}>
               The Hack Foundation
             </Text>
@@ -1200,11 +1338,25 @@ export default function Philanthropy() {
       </Box>
 
       {/* ── Footer ── */}
-      <Box as="footer" sx={{ bg: 'muted', borderTop: `1px solid ${BORDER}`, py: [4, 5], px: [3, 4] }}>
+      <Box
+        as="footer"
+        sx={{
+          bg: 'muted',
+          borderTop: `1px solid ${BORDER}`,
+          py: [4, 5],
+          px: [3, 4]
+        }}
+      >
         <Container sx={{ maxWidth: 1100 }}>
-          <Grid columns={['1fr', null, '1fr auto']} gap={[4, 5]} sx={{ alignItems: 'start' }}>
+          <Grid
+            columns={['1fr', null, '1fr auto']}
+            gap={[4, 5]}
+            sx={{ alignItems: 'start' }}
+          >
             <Box>
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+              <Box
+                sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}
+              >
                 <Box
                   sx={{
                     width: 24,
@@ -1230,24 +1382,51 @@ export default function Philanthropy() {
               <Text sx={{ fontSize: '0.85rem', color: 'secondary', mb: 2 }}>
                 For teens, by teens.
               </Text>
-              <Text sx={{ fontSize: '0.75rem', color: 'secondary', lineHeight: 1.6, maxWidth: 380 }}>
+              <Text
+                sx={{
+                  fontSize: '0.75rem',
+                  color: 'secondary',
+                  lineHeight: 1.6,
+                  maxWidth: 380
+                }}
+              >
                 © 2026 The Hack Foundation. A 501(c)(3) nonprofit (EIN:
-                81-2908499).{' '}
-                <br />
+                81-2908499). <br />
                 Hack Club is a program of The Hack Foundation.{' '}
-                <Box as="a" href="https://hackclub.com" target="_blank" className="a" sx={{ color: RED }}>
+                <Box
+                  as="a"
+                  href="https://hackclub.com"
+                  target="_blank"
+                  className="a"
+                  sx={{ color: RED }}
+                >
                   hackclub.com
                 </Box>
               </Text>
             </Box>
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
               {[
-                { label: 'Our Team & Board', href: 'https://hackclub.com/team' },
-                { label: 'Philosophy', href: 'https://hackclub.com/philosophy' },
-                { label: 'Fiscal Sponsorship', href: 'https://hackclub.com/fiscal-sponsorship' },
+                {
+                  label: 'Our Team & Board',
+                  href: 'https://hackclub.com/team'
+                },
+                {
+                  label: 'Philosophy',
+                  href: 'https://hackclub.com/philosophy'
+                },
+                {
+                  label: 'Fiscal Sponsorship',
+                  href: 'https://hackclub.com/fiscal-sponsorship'
+                },
                 { label: 'Financials', href: 'https://hcb.hackclub.com/hq/' },
-                { label: 'Privacy & Terms', href: 'https://hackclub.com/privacy-and-terms' },
-                { label: 'Code of Conduct', href: 'https://hackclub.com/conduct' }
+                {
+                  label: 'Privacy & Terms',
+                  href: 'https://hackclub.com/privacy-and-terms'
+                },
+                {
+                  label: 'Code of Conduct',
+                  href: 'https://hackclub.com/conduct'
+                }
               ].map(link => (
                 <Box
                   as="a"
