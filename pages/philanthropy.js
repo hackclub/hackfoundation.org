@@ -550,7 +550,7 @@ export default function Philanthropy() {
         <Grid columns={['1fr', null, '1fr 1fr']} gap={[3, 4]}>
           <Box sx={{ border: `1px solid ${BORDER}`, borderRadius: 12, p: 4 }}>
             <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1 }}>
-              Christina Asquith 
+              Christina Asquith  
             </Text>
             <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3 }}>
               Cofounder, President, and Board Member 
