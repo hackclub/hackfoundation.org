@@ -574,7 +574,7 @@ export default function Philanthropy() {
                 mb: 2
               }}
             >
-              Send physical checks
+              Send physical checks<br />
             </Text>
             <br />
             <Text sx={{ lineHeight: 1.7, fontSize: '0.95rem' }}>
