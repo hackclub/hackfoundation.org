@@ -866,7 +866,7 @@ export default function Philanthropy() {
                 }}
               >
                 Christina Asquith
-              </Text>
+              </Text>{' '}
               <Text sx={{ fontSize: '0.8rem' }}>Cofounder and President</Text>
             </Box>
             <Box sx={{ color: 'rgba(255,255,255,0.7)' }}>
@@ -879,7 +879,7 @@ export default function Philanthropy() {
                 }}
               >
                 Zach Latta
-              </Text>
+              </Text>{' '}
               <Text sx={{ fontSize: '0.8rem' }}>
                 Founder and Executive Director
               </Text>
@@ -896,7 +896,7 @@ export default function Philanthropy() {
           >
             <Text sx={{ fontWeight: 700, color: 'rgba(255,255,255,0.65)' }}>
               The Hack Foundation
-            </Text>
+            </Text>{' '}
             <Text>8605 Santa Monica Blvd #86294, West Hollywood, CA 90069</Text>
             <Text>EIN: 81-2908499</Text>
           </Box>
