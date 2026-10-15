@@ -234,7 +234,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
             Hack Club
           </a>
           , a nonprofit network of high schoolers creating the coding education
-          they wish they could have.
+          they wish they could have. The Hack Foundation facilitates hundreds of free in-person and online educational opportunities and workshops for teenagers in coding, technology, software and hardware.
         </p>
         <p>
           In 2018, The Hack Foundation expanded to act as a nonprofit{' '}
