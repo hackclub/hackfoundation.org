@@ -735,7 +735,7 @@ export default function Philanthropy() {
         <Eyebrow>Transparency</Eyebrow>
         <SectionHeading>Financials and annual reports.</SectionHeading>
         <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 4 }}>
-          Starting in 2021, Hack Club has engaged with an external auditing firm
+          Starting in 2021, The Hack Foundation has engaged with an external auditing firm
           and has audited financials through the current fiscal year.
         </Text>
         <Grid columns={['1fr', null, '1fr 1fr']} gap={3}>
@@ -791,7 +791,7 @@ export default function Philanthropy() {
                 mb: 3
               }}
             >
-              Annual Reports
+              Download Our Annual Reports
             </Text>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
               {annualReports.map(({ year, link }) => (
