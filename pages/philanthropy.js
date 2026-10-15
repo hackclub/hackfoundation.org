@@ -575,10 +575,10 @@ export default function Philanthropy() {
         <Grid columns={['1fr', null, '1fr 1fr']} gap={[3, 4]}>
           <Box sx={{ border: `1px solid ${BORDER}`, borderRadius: 12, p: 4 }}>
             <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1 }}>
-              Christina Asquith
+              Christina Asquith 
             </Text>
             <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3 }}>
-              Cofounder, President, and Board Member
+              Cofounder, President, and Board Member 
             </Text>
             <Box
               as="a"
@@ -601,6 +601,7 @@ export default function Philanthropy() {
             >
               Send physical checks
             </Text>
+            <br />
             <Text sx={{ lineHeight: 1.7, fontSize: '0.95rem' }}>
               <strong>The Hack Foundation</strong>
               <br />
@@ -632,20 +633,12 @@ export default function Philanthropy() {
               Donate online
             </Box>
             <Text sx={{ fontSize: '0.8rem', color: 'secondary', mt: 2 }}>
-              We also accept crypto, stocks, and other forms of support.
+            <br />
+            We also accept crypto, stocks, and other forms of support.
             </Text>
           </Box>
         </Grid>
       </Container>
-
-      {/* ── Shop ── */}
-      <Box sx={{ bg: '#1a1d2e', color: 'white', py: [4, 5], px: [3, 4] }}>
-        <Container sx={{ maxWidth: 1100 }}>
-          <Grid
-            columns={['1fr', null, '1fr 1fr']}
-            gap={[4, 5]}
-            sx={{ alignItems: 'center' }}
-          >          
       {/* ── Donor community ── */}
       <Container py={[4, 5]} px={[3, 4]} sx={{ maxWidth: 1100 }}>
         <Eyebrow>Community</Eyebrow>
