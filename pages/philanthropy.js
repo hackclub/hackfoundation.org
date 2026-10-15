@@ -443,7 +443,7 @@ export default function Philanthropy() {
             >
               Donate online
             </Box>
-            <Text sx={{ fontSize: '0.8rem', color: 'secondary', mt: 2 }}>
+            <Text sx={{ fontSize: '0.8rem', color: 'secondary', mt: 2, display: 'block' }}>
               We also accept crypto, stocks, and other forms of support.
             </Text>
           </Box>
@@ -606,7 +606,7 @@ export default function Philanthropy() {
               >
                 <Text sx={{ fontWeight: 700, fontSize: '0.95rem' }}>
                   {m.name}
-                </Text>
+                </Text>{' '}
                 <Text sx={{ fontSize: '0.82rem', color: 'secondary' }}>
                   {m.title}
                 </Text>
