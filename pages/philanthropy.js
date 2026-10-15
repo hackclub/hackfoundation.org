@@ -385,7 +385,7 @@ export default function Philanthropy() {
         <SectionHeading>Reach out directly.</SectionHeading>
         <Grid columns={['1fr', null, '1fr 1fr']} gap={[3, 4]}>
           <Box sx={{ border: `1px solid ${BORDER}`, borderRadius: 12, p: 4 }}>
-            <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1 }}>
+            <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1, display: 'block' }}>
               Christina Asquith
             </Text>
             <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3 }}>
