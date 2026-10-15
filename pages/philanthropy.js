@@ -58,34 +58,6 @@ const otherDonors = [
   'Blake Lieberman, Partner, Rief Ventures'
 ]
 
-const teens = [
-  {
-    name: 'Nitya, 17, Texas',
-    quote: 'Gave me a supportive community to learn tech',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fnitya.11rm3reo9t4zl.webp&w=400&q=75'
-  },
-  {
-    name: 'Josh, 17, Florida',
-    quote: 'Leading a Hack Club has been very fulfilling',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fjosh.24b7h-hmpz084.webp&w=400&q=75'
-  },
-  {
-    name: 'Augie, 17, Washington DC',
-    quote: "In Hack Club, I've made all of my closest friends",
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Faugie.1zes656bwjxtl.webp&w=400&q=75'
-  },
-  {
-    name: 'Adriana, 16, Houston',
-    quote: 'Helped realize the true value of building things',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fadriana.2ria7lrc1kvvf.webp&w=400&q=75'
-  },
-  {
-    name: 'Rhys, 18, Los Angeles',
-    quote: 'Most magical part of my high school years',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Frhys.0sgwgjnaezbud.webp&w=400&q=75'
-  }
-]
-
 const impactStories = [
   {
     name: 'Obrey Muchena',
@@ -673,101 +645,7 @@ export default function Philanthropy() {
             columns={['1fr', null, '1fr 1fr']}
             gap={[4, 5]}
             sx={{ alignItems: 'center' }}
-          >
-            <Box>
-              <Eyebrow sx={{ color: 'rgba(255,255,255,0.5)' }}>
-                Hack Club Shop
-              </Eyebrow>
-              <Heading
-                as="h2"
-                sx={{
-                  fontSize: ['1.5rem', '2rem'],
-                  fontWeight: 800,
-                  color: 'white',
-                  mb: 3
-                }}
-              >
-                You raised a Hack Clubber.
-              </Heading>
-              <Text
-                sx={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.7, mb: 4 }}
-              >
-                Every item in the Hack Club Shop is our thank-you for a
-                donation, and every donation goes straight to the teenagers who
-                build, ship, and dream at Hack Club.
-              </Text>
-              <Box
-                as="a"
-                href="https://shop.hackclub.com/?utm_source=hf-site&utm_medium=internal&utm_campaign=philanthropy_page&utm_content=shop_callout"
-                target="_blank"
-                sx={{
-                  display: 'inline-block',
-                  bg: RED,
-                  color: 'white',
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  px: 4,
-                  py: 3,
-                  borderRadius: 8,
-                  textDecoration: 'none',
-                  '&:hover': { bg: '#c0293f' }
-                }}
-              >
-                Back a teenager →
-              </Box>
-              <Text
-                sx={{
-                  display: 'inline-block',
-                  fontSize: '0.72rem',
-                  bg: 'rgba(255,255,255,0.12)',
-                  color: 'rgba(255,255,255,0.7)',
-                  px: 3,
-                  py: 1,
-                  borderRadius: 99,
-                  mt: 3
-                }}
-              >
-                501(c)(3) · tax-deductible above the gift&apos;s value
-              </Text>
-            </Box>
-            <Box
-              sx={{
-                display: 'flex',
-                gap: 3,
-                overflowX: 'auto',
-                pb: 1,
-                scrollbarWidth: 'none',
-                '&::-webkit-scrollbar': { display: 'none' }
-              }}
-            >
-              {shopItems.map(item => (
-                <Box
-                  key={item.alt}
-                  sx={{
-                    flexShrink: 0,
-                    width: 110,
-                    height: 110,
-                    borderRadius: 10,
-                    overflow: 'hidden',
-                    border: '1px solid rgba(255,255,255,0.15)',
-                    position: 'relative',
-                    bg: 'rgba(255,255,255,0.08)'
-                  }}
-                >
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                    sizes="110px"
-                  />
-                </Box>
-              ))}
-            </Box>
-          </Grid>
-        </Container>
-      </Box>
-
+          >          
       {/* ── Donor community ── */}
       <Container py={[4, 5]} px={[3, 4]} sx={{ maxWidth: 1100 }}>
         <Eyebrow>Community</Eyebrow>
