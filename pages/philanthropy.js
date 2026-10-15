@@ -388,6 +388,7 @@ export default function Philanthropy() {
             '&:hover': { bg: '#c0293f' }
           }}
         >
+        <br />
           Donate to Hack Club
         </Box>
         <Text
@@ -397,7 +398,7 @@ export default function Philanthropy() {
             color: 'rgba(255,255,255,0.45)'
           }}
         >
-          Your contribution is tax-deductible. The Hack Foundation is a
+         Your contribution is tax-deductible. The Hack Foundation is a
           501(c)(3) nonprofit (EIN: 81-2908499).
         </Text>
       </Box>
@@ -413,16 +414,16 @@ export default function Philanthropy() {
       >
         {[
           {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo8.webp&w=1200&q=75',
-            alt: 'Hack Club teens coding'
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo12.webp&w=256&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
+            alt: 'Hack Club teenagers coding'
           },
           {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo3.webp&w=1200&q=75',
-            alt: 'Hack Club community'
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo8.webp&w=640&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
+            alt: 'Teenagers at a Hack Club event'
           },
           {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo12.webp&w=1200&q=75',
-            alt: 'Teen hackers'
+            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo3.webp&w=384&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
+            alt: 'Teenagers at a Hack Club event'
           }
         ].map((photo, i) => (
           <Box
