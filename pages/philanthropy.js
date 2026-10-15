@@ -791,7 +791,7 @@ export default function Philanthropy() {
                 mb: 3
               }}
             >
-              Download Our Annual Reports
+              Annual Reports - Download Here
             </Text>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
               {annualReports.map(({ year, link }) => (
