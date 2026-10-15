@@ -640,7 +640,7 @@ export default function Philanthropy() {
                 </Text>
                 <Text sx={{ fontSize: '0.82rem', color: 'secondary' }}>
                   {m.title}
-                </Text>
+                </Text>{' '}
               </Box>
             ))}
           </Box>
@@ -942,10 +942,10 @@ export default function Philanthropy() {
             <Box>
               <Text sx={{ fontWeight: 800, fontSize: '1rem', mb: 2 }}>
                 The Hack Foundation
-              </Text>
+              </Text>{' '}
               <Text sx={{ fontSize: '0.85rem', color: 'secondary', mb: 2 }}>
                 For teens, by teens.
-              </Text>
+              </Text>{' '}
               <Text
                 sx={{
                   fontSize: '0.75rem',
