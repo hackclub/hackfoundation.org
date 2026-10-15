@@ -1,7 +1,6 @@
 import { Box, Container, Grid, Heading, Text } from 'theme-ui'
 import Head from 'next/head'
 import Meta from '@hackclub/meta'
-import Image from 'next/image'
 
 const RED = '#ec3750'
 const BORDER = 'rgba(229,231,235,1)'
@@ -56,35 +55,6 @@ const otherDonors = [
   'David Cramer, Cofounder, Sentry',
   'Mahmoud Abdelkader, CEO, Very Good Security',
   'Blake Lieberman, Partner, Rief Ventures'
-]
-
-const impactStories = [
-  {
-    name: 'Obrey Muchena',
-    sub: '19, Zambia',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fobrey.2gvh2tu9e54sb.webp&w=128&q=75',
-    context:
-      'Obrey started a Hack Club in his senior year at Kabulonga Boys’ Secondary School. Soon, a dozen students were coding every week.',
-    quote:
-      'Thanks to our donor-funded laptop program, Hack Club sent him a MacBook Air. In his club, Obrey and his best friend Edward built robots that won Canada’s Humanitarian Activist Award.'
-  },
-  {
-    name: 'Maggie Liu',
-    sub: '17, California',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fmaggie.01fer61zpjedx.webp&w=128&q=75',
-    context:
-      'Maggie joined Hack Club in 2021 and has since shipped projects from widgets to Raycast extensions.',
-    quote:
-      'Hack Club inspired me to step outside my comfort zone and take on challenges I never previously would have — starting a CS Club at my school, co-hosting AMAs, and organizing Leland Hacks.'
-  },
-  {
-    name: 'Belle',
-    sub: '17, Malaysia',
-    src: 'https://hackclub.com/_next/image?url=%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fbelle.204nvsvp1s672.webp&w=64&q=75',
-    context: null,
-    quote:
-      'Hack Club helped me fall in love with creating and made me feel like I belong.'
-  }
 ]
 
 const form990s = [
@@ -170,7 +140,6 @@ const pressLogos = [
     href: 'https://www.philanthropy.com/article/nonprofits-need-to-embrace-transparency-even-if-the-supreme-court-rules-to-protect-donor-privacy'
   }
 ]
-]
 
 function Eyebrow({ children, sx = {} }) {
   return (
@@ -250,25 +219,6 @@ export default function Philanthropy() {
             textDecoration: 'none'
           }}
         >
-          <Box
-            sx={{
-              width: 28,
-              height: 28,
-              bg: RED,
-              borderRadius: 4,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              flexShrink: 0
-            }}
-          >
-            <Image
-              src="https://assets.hackclub.com/flag-standalone.png"
-              alt="Hack Club flag"
-              width={20}
-              height={14}
-            />
-          </Box>
           <Text sx={{ fontWeight: 800, fontSize: '1rem', color: 'text' }}>
             The Hack Foundation
           </Text>
@@ -371,174 +321,60 @@ export default function Philanthropy() {
           teenagers. With your support, Hack Club can grow to hundreds of
           thousands more.
         </Text>
-        <Box
-          as="a"
-          href="https://hcb.hackclub.com/donations/start/hq?utm_source=hf-site&utm_medium=internal&utm_campaign=philanthropy_page&utm_content=hero_button"
-          target="_blank"
-          sx={{
-            display: 'inline-block',
-            bg: RED,
-            color: 'white',
-            fontWeight: 700,
-            fontSize: '1.05rem',
-            px: 4,
-            py: 3,
-            borderRadius: 8,
-            textDecoration: 'none',
-            '&:hover': { bg: '#c0293f' }
-          }}
-        >
-        <br />
-          Donate to Hack Club
-        </Box>
-        <Text
-          sx={{
-            mt: 3,
-            fontSize: '0.8rem',
-            color: 'rgba(255,255,255,0.45)'
-          }}
-        >
-         Your contribution is tax-deductible. The Hack Foundation is a
-          501(c)(3) nonprofit (EIN: 81-2908499).
-        </Text>
       </Box>
-
-      {/* ── Hero photo strip ── */}
-      <Grid
-        sx={{
-          gridTemplateColumns: '1fr 1fr 1fr',
-          gridGap: 0,
-          height: [120, 200, 260],
-          overflow: 'hidden'
-        }}
-      >
-        {[
-          {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo12.webp&w=256&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
-            alt: 'Hack Club teenagers coding'
-          },
-          {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo8.webp&w=640&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
-            alt: 'Teenagers at a Hack Club event'
-          },
-          {
-            src: 'https://hackclub.com/_next/image?url=%2Fassets%2Fhero_photo3.webp&w=384&q=75&dpl=dpl_EgYX9a6PqPUUw3jkxwywXwpweBty',
-            alt: 'Teenagers at a Hack Club event'
-          }
-        ].map((photo, i) => (
-          <Box
-            key={i}
-            sx={{ position: 'relative', overflow: 'hidden', bg: '#1a1d2e' }}
-          >
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              fill
-              style={{ objectFit: 'cover', opacity: 0.9 }}
-              sizes="33vw"
-            />
-          </Box>
-        ))}
-      </Grid>
 
       {/* ── Mission ── */}
       <Container py={[4, 5]} px={[3, 4]} sx={{ maxWidth: 1100 }}>
-        <Grid columns={['1fr', null, '1fr 1fr']} gap={[4, 5]}>
-          <Box>
-            <Eyebrow>Our Mission</Eyebrow>
-            <SectionHeading>We back teens with big ideas.</SectionHeading>
-            <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
-              In the next ten years, Hack Club will discover, foster, and
-              inspire thousands more teenagers to use technical skills to solve
-              problems.
-            </Text>
-            <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
-              Hack Club is always free for teenagers. With your support, Hack
-              Club can bring free computer science education, a hacker mindset,
-              and an equal shot at success to every teenager, regardless of
-              where they are from.
-            </Text>
-            <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
-              Over time, Hack Clubbers will reshape societies as entrepreneurs,
-              environmentalists, political leaders, activists, and policy
-              makers. We help shape the values of these future leaders.
-            </Text>
-            <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
-              We need your support to make this vision a reality.
-            </Text>
-            <Box
-              as="blockquote"
-              sx={{
-                borderLeft: `4px solid ${RED}`,
-                pl: 3,
-                my: 4,
-                fontStyle: 'italic',
-                fontWeight: 700,
-                fontSize: '1.1rem',
-                lineHeight: 1.45
-              }}
-            >
-              &ldquo;With major support, I am confident Hack Club will change
-              the world.&rdquo;
-              <Box
-                as="cite"
-                sx={{
-                  display: 'block',
-                  fontStyle: 'normal',
-                  fontWeight: 500,
-                  fontSize: '0.875rem',
-                  color: 'secondary',
-                  mt: 2
-                }}
-              >
-                — Tom Preston-Werner, GitHub Cofounder
-              </Box>
-            </Box>
-          </Box>
-          <Grid
+        <Box>
+          <Eyebrow>Our Mission</Eyebrow>
+          <SectionHeading>We back teens with big ideas.</SectionHeading>
+          <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
+            In the next ten years, Hack Club will discover, foster, and inspire
+            thousands more teenagers to use technical skills to solve problems.
+          </Text>
+          <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
+            Hack Club is always free for teenagers. With your support, Hack Club
+            can bring free computer science education, a hacker mindset, and an
+            equal shot at success to every teenager, regardless of where they
+            are from.
+          </Text>
+          <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
+            Over time, Hack Clubbers will reshape societies as entrepreneurs,
+            environmentalists, political leaders, activists, and policy makers.
+            We help shape the values of these future leaders.
+          </Text>
+          <Text as="p" sx={{ color: 'secondary', lineHeight: 1.7, mb: 3 }}>
+            We need your support to make this vision a reality.
+          </Text>
+          <Box
+            as="blockquote"
             sx={{
-              gridTemplateColumns: '1fr 1fr',
-              gridGap: 3,
-              alignContent: 'start'
+              borderLeft: `4px solid ${RED}`,
+              pl: 3,
+              my: 4,
+              fontStyle: 'italic',
+              fontWeight: 700,
+              fontSize: '1.1rem',
+              lineHeight: 1.45
             }}
           >
-            {teens.map(teen => (
-              <Box
-                key={teen.name}
-                sx={{
-                  border: `1px solid ${BORDER}`,
-                  borderRadius: 12,
-                  overflow: 'hidden'
-                }}
-              >
-                <Box sx={{ position: 'relative', height: 140, bg: '#1a1d2e' }}>
-                  <Image
-                    src={teen.src}
-                    alt={teen.name}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                    sizes="200px"
-                  />
-                </Box>
-                <Box sx={{ p: 2 }}>
-                  <Text
-                    sx={{
-                      fontSize: '0.8rem',
-                      fontWeight: 600,
-                      lineHeight: 1.4,
-                      mb: 1
-                    }}
-                  >
-                    &ldquo;{teen.quote}&rdquo;
-                  </Text>
-                  <Text sx={{ fontSize: '0.72rem', color: 'secondary' }}>
-                    {teen.name}
-                  </Text>
-                </Box>
-              </Box>
-            ))}
-          </Grid>
-        </Grid>
+            &ldquo;With major support, I am confident Hack Club will change the
+            world.&rdquo;
+            <Box
+              as="cite"
+              sx={{
+                display: 'block',
+                fontStyle: 'normal',
+                fontWeight: 500,
+                fontSize: '0.875rem',
+                color: 'secondary',
+                mt: 2
+              }}
+            >
+              — Tom Preston-Werner, GitHub Cofounder
+            </Box>
+          </Box>
+        </Box>
       </Container>
 
       <Divider />
@@ -550,10 +386,10 @@ export default function Philanthropy() {
         <Grid columns={['1fr', null, '1fr 1fr']} gap={[3, 4]}>
           <Box sx={{ border: `1px solid ${BORDER}`, borderRadius: 12, p: 4 }}>
             <Text sx={{ fontWeight: 800, fontSize: '1.2rem', mb: 1 }}>
-              Christina Asquith  
+              Christina Asquith
             </Text>
             <Text sx={{ color: 'secondary', fontSize: '0.875rem', mb: 3 }}>
-              Cofounder, President, and Board Member 
+              Cofounder, President, and Board Member
             </Text>
             <Box
               as="a"
@@ -574,9 +410,8 @@ export default function Philanthropy() {
                 mb: 2
               }}
             >
-              Send physical checks<br />
+              Send physical checks
             </Text>
-            <br />
             <Text sx={{ lineHeight: 1.7, fontSize: '0.95rem' }}>
               <strong>The Hack Foundation</strong>
               <br />
@@ -608,12 +443,12 @@ export default function Philanthropy() {
               Donate online
             </Box>
             <Text sx={{ fontSize: '0.8rem', color: 'secondary', mt: 2 }}>
-            <br />
-            We also accept crypto, stocks, and other forms of support.
+              We also accept crypto, stocks, and other forms of support.
             </Text>
           </Box>
         </Grid>
       </Container>
+
       {/* ── Donor community ── */}
       <Container py={[4, 5]} px={[3, 4]} sx={{ maxWidth: 1100 }}>
         <Eyebrow>Community</Eyebrow>
@@ -695,6 +530,45 @@ export default function Philanthropy() {
       </Container>
 
       <Divider />
+
+      {/* ── Press ── */}
+      <Container
+        py={[4, 5]}
+        px={[3, 4]}
+        sx={{ maxWidth: 1100, textAlign: 'center' }}
+      >
+        <Eyebrow>In the news</Eyebrow>
+        <SectionHeading>
+          As the largest network of technical teenagers, we are featured in
+          global press.
+        </SectionHeading>
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: [3, 4],
+            justifyContent: 'center',
+            mt: 4
+          }}
+        >
+          {pressLogos.map(item => (
+            <Box
+              as="a"
+              key={item.name}
+              href={item.href}
+              target="_blank"
+              className="a"
+              sx={{
+                fontWeight: 800,
+                fontSize: '1.05rem',
+                color: 'secondary',
+                letterSpacing: '-0.01em',
+                '&:hover': { color: RED }
+              }}
+            >
+              {item.name}
+            </Box>
+          ))}
         </Box>
       </Container>
 
@@ -975,25 +849,6 @@ export default function Philanthropy() {
             cities across America and the world, connected online and
             self-organizing events and hackathons.
           </Text>
-          <Box
-            as="a"
-            href="https://hcb.hackclub.com/donations/start/hq?utm_source=hf-site&utm_medium=internal&utm_campaign=philanthropy_page&utm_content=closing_button"
-            target="_blank"
-            sx={{
-              display: 'inline-block',
-              bg: RED,
-              color: 'white',
-              fontWeight: 700,
-              fontSize: '1.05rem',
-              px: 4,
-              py: 3,
-              borderRadius: 8,
-              textDecoration: 'none',
-              '&:hover': { bg: '#c0293f' }
-            }}
-          >
-            Donate to Hack Club
-          </Box>
 
           <Grid
             columns="1fr 1fr"
@@ -1084,31 +939,9 @@ export default function Philanthropy() {
             sx={{ alignItems: 'start' }}
           >
             <Box>
-              <Box
-                sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}
-              >
-                <Box
-                  sx={{
-                    width: 24,
-                    height: 24,
-                    bg: RED,
-                    borderRadius: 4,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}
-                >
-                  <Image
-                    src="https://assets.hackclub.com/flag-standalone.png"
-                    alt="Hack Club flag"
-                    width={16}
-                    height={11}
-                  />
-                </Box>
-                <Text sx={{ fontWeight: 800, fontSize: '1rem' }}>
-                  The Hack Foundation
-                </Text>
-              </Box>
+              <Text sx={{ fontWeight: 800, fontSize: '1rem', mb: 2 }}>
+                The Hack Foundation
+              </Text>
               <Text sx={{ fontSize: '0.85rem', color: 'secondary', mb: 2 }}>
                 For teens, by teens.
               </Text>
