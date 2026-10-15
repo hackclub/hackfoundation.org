@@ -413,6 +413,7 @@ export default function Philanthropy() {
               Send physical checks
             </Text>
             <Text sx={{ lineHeight: 1.7, fontSize: '0.95rem' }}>
+              <br />
               <strong>The Hack Foundation</strong>
               <br />
               8605 Santa Monica Blvd #86294
