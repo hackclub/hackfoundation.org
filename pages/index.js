@@ -286,7 +286,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
           individual supporters.
         </p>
         <p>
-          As it grows, the Hack Foundation is exploring ways in which it can be
+          As it grows, The Hack Foundation is exploring ways in which it can be
           responsible, as part of this we have recently made{' '}
           <a target="_blank" className="a" href="https://hcb.hackclub.com/hq/">
             our entire finances 100% transparent
