@@ -187,32 +187,32 @@ export default function Guide() {
               {
                 n: 1,
                 title: 'Create a GitHub account',
-                body: 'Go to github.com and sign up for a free account. GitHub is where your code will live.'
+                body: ' Go to github.com and sign up for a free account. GitHub is where your code will live.'
               },
               {
                 n: 2,
                 title: 'Install GitHub Desktop',
-                body: 'Download GitHub Desktop from desktop.github.com. It gives you a simple way to save and sync your code without using the command line.'
+                body: ' Download GitHub Desktop from desktop.github.com. It gives you a simple way to save and sync your code without using the command line.'
               },
               {
                 n: 3,
                 title: 'Install Visual Studio Code',
-                body: 'Download VS Code from code.visualstudio.com. This is the text editor you will write your HTML and CSS in.'
+                body: ' Download VS Code from code.visualstudio.com. This is the text editor you will write your HTML and CSS in.'
               },
               {
                 n: 4,
                 title: 'Create a new public repository',
-                body: 'In GitHub Desktop, create a new repository. Give it a name like "my-tribute-site" and make sure visibility is set to Public.'
+                body: ' In GitHub Desktop, create a new repository. Give it a name like "my-tribute-site" and make sure visibility is set to Public.'
               },
               {
                 n: 5,
                 title: 'Add an index.html file',
-                body: 'Open the repository folder in VS Code and create a new file called index.html. This is your homepage.'
+                body: ' Open the repository folder in VS Code and create a new file called index.html. This is your homepage.'
               },
               {
                 n: 6,
                 title: 'Install the Live Server extension',
-                body: 'In VS Code, open the Extensions panel and install "Live Server" by Ritwick Dey. Click "Go Live" in the bottom bar to preview your site in the browser as you build it.'
+                body: ' In VS Code, open the Extensions panel and install "Live Server" by Ritwick Dey. Click "Go Live" in the bottom bar to preview your site in the browser as you build it.'
               }
             ]}
           />
@@ -271,27 +271,27 @@ export default function Guide() {
               {
                 n: 1,
                 title: 'Commit your changes',
-                body: 'In GitHub Desktop, you will see your changed files listed. Write a short commit message like "Add my tribute site" and click Commit to main.'
+                body: ' In GitHub Desktop, you will see your changed files listed. Write a short commit message like "Add my tribute site" and click Commit to main.'
               },
               {
                 n: 2,
                 title: 'Push to GitHub',
-                body: 'Click "Push origin" to upload your code to GitHub. Your files are now online.'
+                body: ' Click "Push origin" to upload your code to GitHub. Your files are now online.'
               },
               {
                 n: 3,
                 title: 'Enable GitHub Pages',
-                body: 'Go to your repository on github.com. Click Settings → Pages. Under "Source," select the main branch and click Save.'
+                body: ' Go to your repository on github.com. Click Settings → Pages. Under "Source," select the main branch and click Save.'
               },
               {
                 n: 4,
                 title: 'Visit your live site',
-                body: 'After a minute or two, your site will be live at YOURUSERNAME.github.io/nameofyourrepository. Share that link with anyone!'
+                body: ' After a minute or two, your site will be live at YOURUSERNAME.github.io/nameofyourrepository. Share that link with anyone!'
               },
               {
                 n: 5,
                 title: 'Making updates',
-                body: 'Edit your files in VS Code, commit, and push again. Your live site will update automatically within a few minutes.'
+                body: ' Edit your files in VS Code, commit, and push again. Your live site will update automatically within a few minutes.'
               }
             ]}
           />
