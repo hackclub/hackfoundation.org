@@ -185,6 +185,7 @@ see the source: https://github.com/hackclub/hackfoundation.org
 
   return (
     <Grid
+      as="main"
       sx={{
         gridTemplateColumns: '1fr 100vh',
         '@media screen and (orientation: portrait)': {
@@ -234,7 +235,9 @@ see the source: https://github.com/hackclub/hackfoundation.org
             Hack Club
           </a>
           , a nonprofit network of high schoolers creating the coding education
-          they wish they could have. The Hack Foundation facilitates hundreds of free in-person and online educational opportunities and workshops for teenagers in coding, technology, software and hardware.
+          they wish they could have. The Hack Foundation facilitates hundreds of
+          free in-person and online educational opportunities and workshops for
+          teenagers in coding, technology, software and hardware.
         </p>
         <p>
           In 2018, The Hack Foundation expanded to act as a nonprofit{' '}
@@ -293,9 +296,15 @@ see the source: https://github.com/hackclub/hackfoundation.org
         <Box sx={{ borderBottom: 'rgba(229,231,235,1) solid 2px' }} />
         <Grid columns={['1fr', '1fr 1fr']} my={3}>
           <div>
-            <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
+            <h2
+              style={{
+                marginBlockStart: '0em',
+                marginBlockEnd: '0em',
+                fontSize: '1.17em'
+              }}
+            >
               Board of Directors
-            </h3>
+            </h2>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
               <Text sx={{ pr: 3 }}>
                 <a
@@ -330,9 +339,15 @@ see the source: https://github.com/hackclub/hackfoundation.org
             </Box>
           </div>
           <div>
-            <h3 style={{ marginBlockStart: '0em', marginBlockEnd: '0em' }}>
+            <h2
+              style={{
+                marginBlockStart: '0em',
+                marginBlockEnd: '0em',
+                fontSize: '1.17em'
+              }}
+            >
               Public Filings (990s)
-            </h3>
+            </h2>
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
               {publicFilings.map(({ year, link }) => (
                 <a
