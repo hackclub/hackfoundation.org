@@ -79,7 +79,7 @@ export default function Guide() {
           <Box sx={{ display: 'flex', gap: 3, flexWrap: 'wrap' }}>
             <Box
               as="a"
-              href="https://github.com/hackclub/hackfoundation.org/blob/main/public/Hack%20Foundation%20website%20guide.pdf"
+              href="https://the.hackfoundation.org/Hack%20Foundation%20website%20guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
