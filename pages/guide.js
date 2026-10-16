@@ -34,7 +34,7 @@ export default function Guide() {
         <Box>
           <Text sx={{ fontWeight: 'bold', fontSize: [1, 2], color: '#1f2d3d' }}>
             The Hack Foundation
-          </Text>
+          </Text>{' '}
           <Text sx={{ fontSize: 0, color: '#6b7280' }}>Guide</Text>
         </Box>
       </Box>
